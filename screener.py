@@ -75,9 +75,39 @@ def get_sector_and_name_map() -> Tuple[Dict[str, str], Dict[str, str]]:
     return sector_map, name_map
 
 
+# ── FDR GitHub 캐시 직접 로드 (KRX 서버 우회) ────────────
+_FDR_CACHE_URL = (
+    "https://raw.githubusercontent.com/FinanceData/"
+    "fdr_krx_data_cache/refs/heads/master/data/listing/krx/{date}.csv"
+)
+_MARKET_ID = {"KOSPI": "STK", "KOSDAQ": "KSQ"}
+
+
+def _load_from_github_cache() -> pd.DataFrame:
+    """FDR GitHub 캐시에서 직접 다운로드 (KRX 서버 없이 전 세계 접근 가능)"""
+    today = datetime.today()
+    for i in range(10):
+        date_str = (today - timedelta(days=i)).strftime("%Y-%m-%d")
+        url = _FDR_CACHE_URL.format(date=date_str)
+        try:
+            df = pd.read_csv(url, dtype={"Code": str})
+            if df.empty:
+                continue
+            # MarketId로 KOSPI/KOSDAQ 구분 후 Market 컬럼 추가
+            id_to_market = {v: k for k, v in _MARKET_ID.items()}
+            if "MarketId" in df.columns:
+                df["Market"] = df["MarketId"].map(id_to_market).fillna("기타")
+            df = df[df["Market"].isin(MARKETS)].reset_index(drop=True)
+            logger.info(f"GitHub 캐시 로드: {len(df)}개 ({date_str})")
+            return df
+        except Exception as e:
+            logger.warning(f"GitHub 캐시 {date_str} 실패: {e}")
+    return pd.DataFrame()
+
+
 # ── 오늘 시장 데이터 ──────────────────────────────────────
 def get_today_market() -> pd.DataFrame:
-    """FinanceDataReader로 KOSPI + KOSDAQ 오늘 전체 데이터"""
+    """KOSPI + KOSDAQ 오늘 전체 데이터. FDR 실패 시 GitHub 캐시 fallback."""
     frames = []
     for market in MARKETS:
         try:
@@ -86,10 +116,11 @@ def get_today_market() -> pd.DataFrame:
             frames.append(df)
             logger.info(f"FDR 로드: {market} {len(df)}개")
         except Exception as e:
-            logger.error(f"FDR 로드 실패 ({market}): {e}")
+            logger.warning(f"FDR 로드 실패 ({market}): {e}")
 
     if not frames:
-        return pd.DataFrame()
+        logger.warning("FDR StockListing 전체 실패 → GitHub 캐시 시도")
+        return _load_from_github_cache()
 
     combined = pd.concat(frames, ignore_index=True)
     combined["Code"] = combined["Code"].astype(str).str.zfill(6)
