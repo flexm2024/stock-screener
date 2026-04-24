@@ -115,27 +115,36 @@ def prefilter(df: pd.DataFrame) -> pd.DataFrame:
 # ── 히스토리 거래대금 MA ──────────────────────────────────
 def get_hist_amount_ma(ticker: str, before_date: str, period: int) -> float:
     """
-    pykrx 개별 종목 조회로 과거 N거래일 평균 거래대금 계산.
+    과거 N거래일 평균 거래대금 계산.
+    pykrx 우선, 실패 시 FDR DataReader fallback (해외 서버 환경 대응).
     거래대금 = 거래량 × 종가 근사값 사용.
     """
+    end_dt   = datetime.strptime(before_date, "%Y%m%d") - timedelta(days=1)
+    start_dt = end_dt - timedelta(days=period * 3)
+
+    # 1차: pykrx
     try:
-        end_dt   = datetime.strptime(before_date, "%Y%m%d") - timedelta(days=1)
-        start_dt = end_dt - timedelta(days=period * 3)
         df = pykrx.get_market_ohlcv_by_date(
             start_dt.strftime("%Y%m%d"),
             end_dt.strftime("%Y%m%d"),
             ticker,
         )
+        if not df.empty and len(df) >= 3:
+            # 위치 기반: 시가(0) 고가(1) 저가(2) 종가(3) 거래량(4)
+            close_col  = df.columns[3]
+            volume_col = df.columns[4]
+            result = float((df[volume_col] * df[close_col]).tail(period).mean())
+            if result > 0:
+                return result
+    except Exception:
+        pass
+
+    # 2차: FDR DataReader (pykrx 실패 시 — Streamlit Cloud 등 해외 환경)
+    try:
+        df = fdr.DataReader(ticker, start_dt.strftime("%Y%m%d"), end_dt.strftime("%Y%m%d"))
         if df.empty or len(df) < 3:
             return 0.0
-
-        # 컬럼 이름이 인코딩 문제로 깨질 수 있어 위치 기반 사용
-        # 순서: 시가(0) 고가(1) 저가(2) 종가(3) 거래량(4) 등락률(5)
-        close_col  = df.columns[3]
-        volume_col = df.columns[4]
-
-        amount_series = df[volume_col] * df[close_col]
-        return float(amount_series.tail(period).mean())
+        return float((df["Volume"] * df["Close"]).tail(period).mean())
     except Exception:
         return 0.0
 

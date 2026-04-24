@@ -454,7 +454,11 @@ def render_related(related: list):
 
 def run_and_save(date: str) -> list:
     results = screen_stocks(date)
-    storage.save(date, results)
+    if results:
+        storage.save(date, results)
+    elif storage.load(date):
+        # 새 실행 결과가 없으면 기존 파일 유지하고 기존 결과 반환
+        return storage.load(date)
     return results
 
 def render_results(results: list, date: str):
@@ -568,11 +572,11 @@ if run_today or rerun_today:
     st.session_state["results_cache"] = {selected: results}
     st.rerun()
 
-# 캐시 또는 파일에서 로드
+# 캐시 또는 파일에서 로드 (캐시가 비어있으면 파일 재시도)
 cache = st.session_state.get("results_cache", {})
-if selected not in cache:
+if selected not in cache or not cache.get(selected):
     loaded = storage.load(selected)
-    if loaded is not None:
+    if loaded:
         cache[selected] = loaded
         st.session_state["results_cache"] = cache
 
