@@ -5,6 +5,4 @@ enableCORS = false
 enableXsrfProtection = false
 
 [browser]
-serverAddress = "stock.flexmstudio.com"
-serverPort = 443
 gatherUsageStats = false
