@@ -25,6 +25,7 @@ from config import (
 logger = logging.getLogger(__name__)
 
 MAX_RELATED = 5
+last_diag: Dict = {}  # 마지막 스크리닝 진단 정보 (앱에서 표시용)
 
 _KIND_PARAMS_BASE = {
     "method": "download",
@@ -198,6 +199,8 @@ def screen_stocks(date: Optional[str] = None) -> List[Dict]:
     if date is None:
         date = datetime.now().strftime("%Y%m%d")
 
+    global last_diag
+    last_diag = {}
     logger.info(f"=== 스크리닝 시작: {date} ===")
 
     # 1. 업종·이름 맵
@@ -207,14 +210,25 @@ def screen_stocks(date: Optional[str] = None) -> List[Dict]:
     today_df = get_today_market()
     if today_df.empty:
         logger.error("오늘 시장 데이터 없음")
+        last_diag = {"error": "FDR StockListing 실패 — 오늘 시장 데이터를 가져오지 못했습니다."}
         return []
+
+    amount_nonzero = int((today_df["Amount"] > 0).sum())
+    last_diag["시장 데이터"] = f"KOSPI+KOSDAQ {len(today_df)}종목 로드 (거래대금>0: {amount_nonzero}종목)"
 
     # 3. 1차 필터
     filtered = prefilter(today_df)
     logger.info(f"1차 필터 통과: {len(filtered)}종목 → 거래대금 배수 계산 시작")
+    last_diag["1차 필터"] = f"{len(filtered)}종목 통과 (장대양봉+거래대금+상승률 기준)"
+
+    if filtered.empty:
+        last_diag["결과"] = "1차 필터 통과 종목 없음"
+        return []
 
     # 4. 거래대금 배수 필터 (개별 히스토리)
     results: List[Dict] = []
+    ma_zero_count = 0
+    surge_fail_count = 0
     for _, row in filtered.iterrows():
         ticker      = str(row["Code"])
         today_amount = float(row["Amount"])
@@ -222,9 +236,11 @@ def screen_stocks(date: Optional[str] = None) -> List[Dict]:
         time.sleep(0.2)
         ma = get_hist_amount_ma(ticker, date, MA_PERIOD)
         if ma <= 0:
+            ma_zero_count += 1
             continue
         surge = today_amount / ma
         if surge < VOLUME_SURGE_RATIO:
+            surge_fail_count += 1
             continue
 
         name = name_map.get(ticker, str(row.get("Name", ticker)))
@@ -243,6 +259,10 @@ def screen_stocks(date: Optional[str] = None) -> List[Dict]:
             f"신호: {name}({ticker}) "
             f"+{row['ChagesRatio']:.1f}% | {surge:.1f}배↑"
         )
+
+    last_diag["거래대금 배수"] = (
+        f"MA산출 불가: {ma_zero_count}종목, 배수 미달: {surge_fail_count}종목, 통과: {len(results)}종목"
+    )
 
     # 5. 관련주 부착
     if results:

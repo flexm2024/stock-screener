@@ -465,6 +465,11 @@ def render_results(results: list, date: str):
     """결과 화면 렌더링"""
     if not results:
         st.markdown('<div class="no-signal"><span style="font-size:2rem;display:block;margin-bottom:12px">📭</span>오늘 신호 종목 없음<br><span style="font-size:0.82rem;color:var(--c-muted)">기준에 맞는 장대양봉+거래대금 급증 종목이 없습니다</span></div>', unsafe_allow_html=True)
+        import screener as _sc
+        if _sc.last_diag:
+            with st.expander("진단 정보 (왜 없는지 확인)"):
+                for k, v in _sc.last_diag.items():
+                    st.write(f"**{k}:** {v}")
         return
 
     total_sectors = len({r["sector"] for r in results})
