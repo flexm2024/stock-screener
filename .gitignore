@@ -1,0 +1,16 @@
+# 스크리닝 결과 데이터
+results/
+
+# 환경변수
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# 로컬 전용 파일
+.claude/
+start.bat
+register_task.bat
+tunnel/
