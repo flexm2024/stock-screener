@@ -1,5 +1,6 @@
 """
-한국 주식 스크리닝: 거래대금 급증 + 장대양봉 포착
+한국 주식 스크리닝: 거래대금 급증 조기 포착 (세력 개입 신호)
+- 가격 조건 없음 — 아직 오르지 않은 종목도 포착
 - 오늘 데이터: FinanceDataReader (KOSPI/KOSDAQ 전체 한 번에)
 - 업종 정보 : KIND (한국거래소 기업공시채널)
 - 히스토리  : pykrx 개별 종목 조회 (거래량 × 종가 = 거래대금 근사)
@@ -18,7 +19,6 @@ from pykrx import stock as pykrx
 
 from config import (
     MA_PERIOD, MARKETS, MAX_RESULTS,
-    MIN_BODY_RATIO, MIN_PRICE_CHANGE,
     MIN_TRADING_VALUE, VOLUME_SURGE_RATIO,
 )
 
@@ -131,28 +131,22 @@ def get_today_market() -> pd.DataFrame:
 
 # ── 1차 필터 ─────────────────────────────────────────────
 def prefilter(df: pd.DataFrame) -> pd.DataFrame:
-    """양봉 + 최소 거래대금 + 최소 상승률 + 장대양봉"""
-    f = df[(df["Close"] > df["Open"]) & (df["Open"] > 0)].copy()
+    """거래대금 기준만 적용 — 가격 방향/캔들/상승률 조건 없음 (조기 포착 모드)"""
+    f = df[df["Open"] > 0].copy()
     f = f[f["Amount"] >= MIN_TRADING_VALUE]
-    f = f[f["ChagesRatio"] >= MIN_PRICE_CHANGE]
-
-    body = f["Close"] - f["Open"]
-    rng  = (f["High"] - f["Low"]).replace(0, pd.NA)
-    f["body_ratio"] = (body / rng).fillna(1.0)
-    f = f[f["body_ratio"] >= MIN_BODY_RATIO]
-
     return f
 
 
-# ── 히스토리 거래대금 MA ──────────────────────────────────
-def get_hist_amount_ma(ticker: str, before_date: str, period: int) -> float:
+# ── 히스토리 통계 (MA20 + 52주 고저) ────────────────────────
+def get_hist_stats(ticker: str, date: str) -> dict:
     """
-    과거 N거래일 평균 거래대금 계산.
-    pykrx 우선, 실패 시 FDR DataReader fallback (해외 서버 환경 대응).
-    거래대금 = 거래량 × 종가 근사값 사용.
+    1회 pykrx 조회로 MA20 거래대금 + 52주(약 252거래일) 고저 계산.
+    반환: {"amount_ma": float, "week52_low": float, "week52_high": float, "week52_pct": float}
     """
-    end_dt   = datetime.strptime(before_date, "%Y%m%d") - timedelta(days=1)
-    start_dt = end_dt - timedelta(days=period * 3)
+    end_dt   = datetime.strptime(date, "%Y%m%d") - timedelta(days=1)
+    start_dt = end_dt - timedelta(days=500)   # 52주(약252거래일) 커버
+
+    df = pd.DataFrame()
 
     # 1차: pykrx
     try:
@@ -161,24 +155,56 @@ def get_hist_amount_ma(ticker: str, before_date: str, period: int) -> float:
             end_dt.strftime("%Y%m%d"),
             ticker,
         )
-        if not df.empty and len(df) >= 3:
-            # 위치 기반: 시가(0) 고가(1) 저가(2) 종가(3) 거래량(4)
-            close_col  = df.columns[3]
-            volume_col = df.columns[4]
-            result = float((df[volume_col] * df[close_col]).tail(period).mean())
-            if result > 0:
-                return result
     except Exception:
         pass
 
-    # 2차: FDR DataReader (pykrx 실패 시 — Streamlit Cloud 등 해외 환경)
-    try:
-        df = fdr.DataReader(ticker, start_dt.strftime("%Y%m%d"), end_dt.strftime("%Y%m%d"))
-        if df.empty or len(df) < 3:
-            return 0.0
-        return float((df["Volume"] * df["Close"]).tail(period).mean())
-    except Exception:
-        return 0.0
+    # 2차: FDR fallback
+    if df.empty or len(df) < 3:
+        try:
+            df = fdr.DataReader(
+                ticker,
+                start_dt.strftime("%Y%m%d"),
+                end_dt.strftime("%Y%m%d"),
+            )
+        except Exception:
+            pass
+
+    if df.empty or len(df) < 3:
+        return {"amount_ma": 0.0, "week52_low": 0.0, "week52_high": 0.0, "week52_pct": 0.0}
+
+    # pykrx 컬럼: 시가(0) 고가(1) 저가(2) 종가(3) 거래량(4)
+    # FDR 컬럼: Open High Low Close Volume
+    if "Close" in df.columns:
+        close_col  = "Close"
+        high_col   = "High"
+        low_col    = "Low"
+        volume_col = "Volume"
+    else:
+        close_col  = df.columns[3]
+        high_col   = df.columns[1]
+        low_col    = df.columns[2]
+        volume_col = df.columns[4]
+
+    amount_series = df[volume_col] * df[close_col]
+    amount_ma = float(amount_series.tail(MA_PERIOD).mean())
+
+    # 52주 = 최근 252 거래일 (데이터가 252개 미만이면 전체 사용)
+    w52 = df.tail(252)
+    w52_high = float(w52[high_col].max())
+    w52_low  = float(w52[low_col].min())
+
+    if w52_high > w52_low:
+        last_close = float(df[close_col].iloc[-1])
+        w52_pct = round((last_close - w52_low) / (w52_high - w52_low) * 100, 1)
+    else:
+        w52_pct = 0.0
+
+    return {
+        "amount_ma":   amount_ma,
+        "week52_low":  w52_low,
+        "week52_high": w52_high,
+        "week52_pct":  w52_pct,
+    }
 
 
 # ── 관련주 부착 ────────────────────────────────────────────
@@ -250,7 +276,7 @@ def screen_stocks(date: Optional[str] = None) -> List[Dict]:
     # 3. 1차 필터
     filtered = prefilter(today_df)
     logger.info(f"1차 필터 통과: {len(filtered)}종목 → 거래대금 배수 계산 시작")
-    last_diag["1차 필터"] = f"{len(filtered)}종목 통과 (장대양봉+거래대금+상승률 기준)"
+    last_diag["1차 필터"] = f"{len(filtered)}종목 통과 (거래대금 {MIN_TRADING_VALUE//100_000_000}억+, 상승률 무제한)"
 
     if filtered.empty:
         last_diag["결과"] = "1차 필터 통과 종목 없음"
@@ -265,7 +291,8 @@ def screen_stocks(date: Optional[str] = None) -> List[Dict]:
         today_amount = float(row["Amount"])
 
         time.sleep(0.2)
-        ma = get_hist_amount_ma(ticker, date, MA_PERIOD)
+        stats = get_hist_stats(ticker, date)
+        ma = stats["amount_ma"]
         if ma <= 0:
             ma_zero_count += 1
             continue
@@ -274,17 +301,22 @@ def screen_stocks(date: Optional[str] = None) -> List[Dict]:
             surge_fail_count += 1
             continue
 
+        chg = float(row["ChagesRatio"])
+        direction = "양봉" if float(row["Close"]) > float(row["Open"]) else ("음봉" if float(row["Close"]) < float(row["Open"]) else "보합")
         name = name_map.get(ticker, str(row.get("Name", ticker)))
         results.append({
             "ticker":        ticker,
             "name":          name,
             "market":        str(row["Market"]),
             "close":         int(row["Close"]),
-            "change_rate":   round(float(row["ChagesRatio"]), 2),
+            "change_rate":   round(chg, 2),
+            "direction":     direction,
             "trading_value": int(today_amount),
             "volume_surge":  round(surge, 1),
-            "body_ratio":    round(float(row["body_ratio"]), 2),
             "sector":        sector_map.get(ticker, "기타"),
+            "week52_low":    stats["week52_low"],
+            "week52_high":   stats["week52_high"],
+            "week52_pct":    stats["week52_pct"],
         })
         logger.info(
             f"신호: {name}({ticker}) "

@@ -427,11 +427,40 @@ def chg_html(chg: float) -> str:
     arrow = "▲" if chg >= 0 else "▼"
     return f'<span class="{cls}">{arrow}{abs(chg):.1f}%</span>'
 
-def render_signal_card(s: dict):
+def render_signal_card(s: dict, streak: int = 1):
+    direction = s.get("direction", "")
+    dir_color = "#ff4060" if direction == "양봉" else ("#2860ff" if direction == "음봉" else "#888")
+
+    streak_badge = ""
+    if streak >= 3:
+        streak_badge = f'<span style="background:#ff4060;color:#fff;border-radius:6px;padding:2px 8px;font-size:0.72rem;font-weight:800;margin-left:8px">{streak}일 연속 🔥</span>'
+    elif streak == 2:
+        streak_badge = '<span style="background:#f0a020;color:#fff;border-radius:6px;padding:2px 8px;font-size:0.72rem;font-weight:800;margin-left:8px">2일 연속</span>'
+
+    w52_pct  = s.get("week52_pct", 0.0)
+    w52_high = s.get("week52_high", 0)
+    w52_low  = s.get("week52_low", 0)
+    w52_block = ""
+    if w52_high > 0 and w52_low > 0:
+        bar_color = "#20cc80" if w52_pct < 40 else ("#f0a020" if w52_pct < 70 else "#ff4060")
+        w52_block = f"""
+        <div style="margin-top:8px">
+          <div style="display:flex;justify-content:space-between;font-size:0.7rem;color:var(--c-muted);margin-bottom:3px">
+            <span>52주 저점 {w52_low:,.0f}</span>
+            <span style="font-weight:700;color:{bar_color}">{w52_pct}%</span>
+            <span>고점 {w52_high:,.0f}</span>
+          </div>
+          <div style="height:5px;background:rgba(40,96,255,0.1);border-radius:999px;overflow:hidden">
+            <div style="width:{w52_pct}%;height:100%;background:{bar_color};border-radius:999px;transition:width 0.4s"></div>
+          </div>
+        </div>"""
+
     st.markdown(f"""
     <div class="sig-card">
       <div class="sig-name">{s['name']}
         <span style="font-size:0.82rem;color:var(--c-muted);margin-left:8px;font-weight:500;font-family:'JetBrains Mono',monospace">{s['ticker']}</span>
+        <span style="font-size:0.75rem;color:{dir_color};margin-left:8px;font-weight:700">{direction}</span>
+        {streak_badge}
       </div>
       <div class="sig-meta">
         {chg_html(s['change_rate'])} &nbsp;
@@ -439,6 +468,7 @@ def render_signal_card(s: dict):
         <span class="tag">{fmt_val(s['trading_value'])}</span>
         <span class="tag">{s['market']}</span>
       </div>
+      {w52_block}
     </div>
     """, unsafe_allow_html=True)
 
@@ -464,7 +494,7 @@ def run_and_save(date: str) -> list:
 def render_results(results: list, date: str):
     """결과 화면 렌더링"""
     if not results:
-        st.markdown('<div class="no-signal"><span style="font-size:2rem;display:block;margin-bottom:12px">📭</span>오늘 신호 종목 없음<br><span style="font-size:0.82rem;color:var(--c-muted)">기준에 맞는 장대양봉+거래대금 급증 종목이 없습니다</span></div>', unsafe_allow_html=True)
+        st.markdown('<div class="no-signal"><span style="font-size:2rem;display:block;margin-bottom:12px">📭</span>오늘 신호 종목 없음<br><span style="font-size:0.82rem;color:var(--c-muted)">기준에 맞는 거래대금 급증 종목이 없습니다</span></div>', unsafe_allow_html=True)
         import screener as _sc
         if _sc.last_diag:
             with st.expander("진단 정보 (왜 없는지 확인)"):
@@ -482,6 +512,8 @@ def render_results(results: list, date: str):
 
     st.divider()
 
+    streak_map = storage.get_streak_map(date)
+
     by_sector = defaultdict(list)
     for r in results:
         by_sector[r["sector"]].append(r)
@@ -498,7 +530,7 @@ def render_results(results: list, date: str):
                   <div class="sector-bar"></div>
                 </div>''', unsafe_allow_html=True)
                 for s in stocks:
-                    render_signal_card(s)
+                    render_signal_card(s, streak=streak_map.get(s["ticker"], 1))
                 render_related(stocks[0].get("related_stocks", []))
 
 
@@ -506,7 +538,6 @@ def render_results(results: list, date: str):
 with st.sidebar:
     st.markdown('<div style="font-size:1.1rem;font-weight:800;color:var(--c-text);letter-spacing:-0.025em;margin-bottom:4px">스크리닝 설정</div><div style="width:2rem;height:3px;background:linear-gradient(90deg,#2860ff,#20cc80);border-radius:999px;margin-bottom:20px"></div>', unsafe_allow_html=True)
     custom_surge   = st.slider("거래대금 배수 기준", 2.0, 10.0, 3.0, 0.5)
-    custom_chg     = st.slider("최소 상승률 (%)", 1.0, 10.0, 3.0, 0.5)
     custom_related = st.slider("관련주 표시 수", 3, 10, 5)
 
     st.divider()
@@ -545,7 +576,7 @@ st.markdown(f"""
   <div class="fm-hero-title">
     주도 섹터<br><span class="fm-shimmer">신호 스크리너</span><span class="fm-hero-cursor"></span>
   </div>
-  <div class="fm-hero-sub">장대양봉 + 거래대금 급증 종목 자동 포착 &nbsp;·&nbsp; {today_label()}</div>
+  <div class="fm-hero-sub">거래대금 급증 조기 포착 (세력 개입 신호) &nbsp;·&nbsp; {today_label()}</div>
   <div class="fm-accent-bar"></div>
 </div>
 """, unsafe_allow_html=True)
@@ -569,7 +600,6 @@ if run_today or rerun_today:
 
     import config, screener as _sc
     config.VOLUME_SURGE_RATIO = custom_surge
-    config.MIN_PRICE_CHANGE   = custom_chg
     _sc.MAX_RELATED           = custom_related
 
     with st.spinner(f"KOSPI + KOSDAQ 스크리닝 중... ({today_label()}) — 약 1~3분 소요"):
@@ -594,7 +624,6 @@ if results is None and selected == today_str():
 
         import config, screener as _sc
         config.VOLUME_SURGE_RATIO = custom_surge
-        config.MIN_PRICE_CHANGE   = custom_chg
         _sc.MAX_RELATED           = custom_related
 
         with st.spinner("KOSPI + KOSDAQ 스크리닝 중... 약 1~3분 소요"):

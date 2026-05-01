@@ -1,0 +1,28 @@
+{
+  "name": "주도 섹터 신호 스크리너",
+  "short_name": "스탁",
+  "description": "KOSPI·KOSDAQ 거래대금 급증 종목 포착",
+  "start_url": "/stock/",
+  "scope": "/stock/",
+  "display": "standalone",
+  "background_color": "#f4f7ff",
+  "theme_color": "#2860ff",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
