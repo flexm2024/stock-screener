@@ -16,6 +16,7 @@ MIN_TRADING_VALUE = 200_000_000_000  # 최소 거래대금: 2000억원
 VOLUME_SURGE_RATIO = 3.0            # 20일 평균 대비 거래대금 배수 (3배 이상)
 MA_PERIOD = 20                      # 거래대금 이동평균 기간 (거래일 기준)
 MAX_RESULTS = 20                    # 최대 결과 종목 수
+MIN_BODY_RATIO = 0.5                # 장대양봉: 몸통 / 전체 캔들 범위 (50% 이상)
 
 # 스크리닝 대상 시장
 MARKETS = ["KOSPI", "KOSDAQ"]

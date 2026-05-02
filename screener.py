@@ -19,7 +19,7 @@ from pykrx import stock as pykrx
 
 from config import (
     MA_PERIOD, MARKETS, MAX_RESULTS,
-    MIN_TRADING_VALUE, VOLUME_SURGE_RATIO,
+    MIN_BODY_RATIO, MIN_TRADING_VALUE, VOLUME_SURGE_RATIO,
 )
 
 logger = logging.getLogger(__name__)
@@ -131,9 +131,15 @@ def get_today_market() -> pd.DataFrame:
 
 # ── 1차 필터 ─────────────────────────────────────────────
 def prefilter(df: pd.DataFrame) -> pd.DataFrame:
-    """거래대금 기준만 적용 — 가격 방향/캔들/상승률 조건 없음 (조기 포착 모드)"""
+    """거래대금 + 장대양봉 필터 (양봉 & 몸통 비율 50% 이상)"""
     f = df[df["Open"] > 0].copy()
     f = f[f["Amount"] >= MIN_TRADING_VALUE]
+    # 양봉만
+    f = f[f["Close"] > f["Open"]]
+    # 장대: 몸통 / 캔들 전체 범위 >= MIN_BODY_RATIO (눌린 캔들 제외)
+    candle_range = f["High"] - f["Low"]
+    body = f["Close"] - f["Open"]
+    f = f[(candle_range <= 0) | (body / candle_range >= MIN_BODY_RATIO)]
     return f
 
 
@@ -276,7 +282,7 @@ def screen_stocks(date: Optional[str] = None) -> List[Dict]:
     # 3. 1차 필터
     filtered = prefilter(today_df)
     logger.info(f"1차 필터 통과: {len(filtered)}종목 → 거래대금 배수 계산 시작")
-    last_diag["1차 필터"] = f"{len(filtered)}종목 통과 (거래대금 {MIN_TRADING_VALUE//100_000_000}억+, 상승률 무제한)"
+    last_diag["1차 필터"] = f"{len(filtered)}종목 통과 (거래대금 {MIN_TRADING_VALUE//100_000_000}억+, 장대양봉 몸통 {int(MIN_BODY_RATIO*100)}%+)"
 
     if filtered.empty:
         last_diag["결과"] = "1차 필터 통과 종목 없음"
