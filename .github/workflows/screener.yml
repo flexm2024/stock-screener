@@ -7,6 +7,8 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 jobs:
   screen:
@@ -43,3 +45,11 @@ jobs:
             git commit -m "📈 스크리닝 $(date +'%Y-%m-%d')" &&
             git push
           )
+
+      - name: GitHub Pages 배포 준비
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: pwa_deploy
+
+      - name: GitHub Pages 배포
+        uses: actions/deploy-pages@v4

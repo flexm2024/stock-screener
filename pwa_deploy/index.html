@@ -400,6 +400,7 @@ function showState(id) {
 
 /* ── Render ─────────────────────────────────────────────── */
 function renderResults(results) {
+  try {
   if (!results || results.length === 0) { showState('empty-state'); return; }
 
   const sectors = {};
@@ -498,6 +499,10 @@ function renderResults(results) {
 
   document.getElementById('results-state').innerHTML = html;
   showState('results-state');
+  } catch(e) {
+    document.getElementById('error-state').querySelector('small').textContent = '렌더 오류: ' + e.message;
+    showState('error-state');
+  }
 }
 
 /* ── Toggle related ─────────────────────────────────────── */
