@@ -157,9 +157,9 @@
     }
     .tab-btn {
       background:transparent; border:none; border-radius:8px;
-      color:var(--c-muted); font-weight:500; font-size:.83rem;
-      padding:6px 16px; cursor:pointer; font-family:inherit;
-      transition:all .2s; white-space:nowrap;
+      color:var(--c-muted); font-weight:600; font-size:.82rem;
+      padding:6px 14px; cursor:pointer; font-family:inherit;
+      transition:all .2s; white-space:nowrap; min-width:48px; text-align:center;
     }
     .tab-btn:hover { background:rgba(40,96,255,.06); }
     .tab-btn.active {
@@ -544,11 +544,20 @@ async function loadDate(date) {
 }
 
 /* ── Render date tabs ───────────────────────────────────── */
-function renderTabs() {
+function tabLabel(d) {
+  const days = ['일','월','화','수','목','금','토'];
   const today = todayKST();
-  document.getElementById('date-tabs').innerHTML = dates.slice(0, 7).map(d => {
-    const label = d === today ? `오늘 (${fmtDateShort(d)})` : fmtDateShort(d);
-    return `<button class="tab-btn" data-date="${d}" onclick="loadDate('${d}')">${label}</button>`;
+  const dt = new Date(d.slice(0,4)+'-'+d.slice(4,6)+'-'+d.slice(6));
+  const dow = days[dt.getDay()];
+  if (d === today) return `오늘 ${dow}`;
+  const yest = new Date(Date.now() + 9*3600000 - 86400000);
+  const yestStr = yest.toISOString().slice(0,10).replace(/-/g,'');
+  if (d === yestStr) return `어제 ${dow}`;
+  return dow;
+}
+function renderTabs() {
+  document.getElementById('date-tabs').innerHTML = dates.slice(0, 5).map(d => {
+    return `<button class="tab-btn" data-date="${d}" onclick="loadDate('${d}')">${tabLabel(d)}</button>`;
   }).join('');
 }
 
