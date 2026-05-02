@@ -1,0 +1,578 @@
+[
+  {
+    "ticker": "036540",
+    "name": "SFA반도체",
+    "market": "KOSDAQ",
+    "close": 9640,
+    "change_rate": 22.18,
+    "trading_value": 441033818970,
+    "volume_surge": 22.4,
+    "body_ratio": 0.77,
+    "sector": "반도체 제조업",
+    "related_stocks": [
+      {
+        "ticker": "000660",
+        "name": "SK하이닉스",
+        "close": 1222000,
+        "change_rate": -0.24,
+        "trading_value": 3813440481697
+      },
+      {
+        "ticker": "322000",
+        "name": "HD현대에너지솔루션",
+        "close": 191000,
+        "change_rate": 6.29,
+        "trading_value": 292929432300
+      },
+      {
+        "ticker": "067310",
+        "name": "하나마이크론",
+        "close": 40300,
+        "change_rate": 6.05,
+        "trading_value": 175061626650
+      },
+      {
+        "ticker": "000990",
+        "name": "DB하이텍",
+        "close": 152000,
+        "change_rate": 10.63,
+        "trading_value": 162200944200
+      },
+      {
+        "ticker": "102120",
+        "name": "어보브반도체",
+        "close": 14920,
+        "change_rate": 9.14,
+        "trading_value": 91278038830
+      }
+    ]
+  },
+  {
+    "ticker": "098460",
+    "name": "고영",
+    "market": "KOSDAQ",
+    "close": 42300,
+    "change_rate": 29.95,
+    "trading_value": 1220839241875,
+    "volume_surge": 18.9,
+    "body_ratio": 0.97,
+    "sector": "특수 목적용 기계 제조업",
+    "related_stocks": [
+      {
+        "ticker": "036930",
+        "name": "주성엔지니어링",
+        "close": 123900,
+        "change_rate": 6.63,
+        "trading_value": 503504061250
+      },
+      {
+        "ticker": "403870",
+        "name": "HPSP",
+        "close": 53400,
+        "change_rate": 4.71,
+        "trading_value": 334136555550
+      },
+      {
+        "ticker": "209640",
+        "name": "와이제이링크",
+        "close": 7520,
+        "change_rate": 17.68,
+        "trading_value": 258773247905
+      },
+      {
+        "ticker": "042700",
+        "name": "한미반도체",
+        "close": 295500,
+        "change_rate": 0.68,
+        "trading_value": 168082355500
+      },
+      {
+        "ticker": "222080",
+        "name": "씨아이에스",
+        "close": 16490,
+        "change_rate": 2.42,
+        "trading_value": 144032165855
+      }
+    ]
+  },
+  {
+    "ticker": "080220",
+    "name": "제주반도체",
+    "market": "KOSDAQ",
+    "close": 54000,
+    "change_rate": 18.16,
+    "trading_value": 1096004509950,
+    "volume_surge": 15.4,
+    "body_ratio": 0.77,
+    "sector": "반도체 제조업",
+    "related_stocks": [
+      {
+        "ticker": "000660",
+        "name": "SK하이닉스",
+        "close": 1222000,
+        "change_rate": -0.24,
+        "trading_value": 3813440481697
+      },
+      {
+        "ticker": "322000",
+        "name": "HD현대에너지솔루션",
+        "close": 191000,
+        "change_rate": 6.29,
+        "trading_value": 292929432300
+      },
+      {
+        "ticker": "067310",
+        "name": "하나마이크론",
+        "close": 40300,
+        "change_rate": 6.05,
+        "trading_value": 175061626650
+      },
+      {
+        "ticker": "000990",
+        "name": "DB하이텍",
+        "close": 152000,
+        "change_rate": 10.63,
+        "trading_value": 162200944200
+      },
+      {
+        "ticker": "102120",
+        "name": "어보브반도체",
+        "close": 14920,
+        "change_rate": 9.14,
+        "trading_value": 91278038830
+      }
+    ]
+  },
+  {
+    "ticker": "090710",
+    "name": "휴림로봇",
+    "market": "KOSDAQ",
+    "close": 13250,
+    "change_rate": 17.05,
+    "trading_value": 608715861160,
+    "volume_surge": 10.0,
+    "body_ratio": 0.69,
+    "sector": "특수 목적용 기계 제조업",
+    "related_stocks": [
+      {
+        "ticker": "036930",
+        "name": "주성엔지니어링",
+        "close": 123900,
+        "change_rate": 6.63,
+        "trading_value": 503504061250
+      },
+      {
+        "ticker": "403870",
+        "name": "HPSP",
+        "close": 53400,
+        "change_rate": 4.71,
+        "trading_value": 334136555550
+      },
+      {
+        "ticker": "209640",
+        "name": "와이제이링크",
+        "close": 7520,
+        "change_rate": 17.68,
+        "trading_value": 258773247905
+      },
+      {
+        "ticker": "042700",
+        "name": "한미반도체",
+        "close": 295500,
+        "change_rate": 0.68,
+        "trading_value": 168082355500
+      },
+      {
+        "ticker": "222080",
+        "name": "씨아이에스",
+        "close": 16490,
+        "change_rate": 2.42,
+        "trading_value": 144032165855
+      }
+    ]
+  },
+  {
+    "ticker": "092220",
+    "name": "KEC",
+    "market": "KOSPI",
+    "close": 1871,
+    "change_rate": 16.86,
+    "trading_value": 267859633703,
+    "volume_surge": 8.2,
+    "body_ratio": 0.73,
+    "sector": "반도체 제조업",
+    "related_stocks": [
+      {
+        "ticker": "000660",
+        "name": "SK하이닉스",
+        "close": 1222000,
+        "change_rate": -0.24,
+        "trading_value": 3813440481697
+      },
+      {
+        "ticker": "322000",
+        "name": "HD현대에너지솔루션",
+        "close": 191000,
+        "change_rate": 6.29,
+        "trading_value": 292929432300
+      },
+      {
+        "ticker": "067310",
+        "name": "하나마이크론",
+        "close": 40300,
+        "change_rate": 6.05,
+        "trading_value": 175061626650
+      },
+      {
+        "ticker": "000990",
+        "name": "DB하이텍",
+        "close": 152000,
+        "change_rate": 10.63,
+        "trading_value": 162200944200
+      },
+      {
+        "ticker": "102120",
+        "name": "어보브반도체",
+        "close": 14920,
+        "change_rate": 9.14,
+        "trading_value": 91278038830
+      }
+    ]
+  },
+  {
+    "ticker": "071970",
+    "name": "HD현대마린엔진",
+    "market": "KOSPI",
+    "close": 114600,
+    "change_rate": 18.88,
+    "trading_value": 203606637350,
+    "volume_surge": 8.0,
+    "body_ratio": 0.92,
+    "sector": "일반 목적용 기계 제조업",
+    "related_stocks": [
+      {
+        "ticker": "034020",
+        "name": "두산에너빌리티",
+        "close": 127100,
+        "change_rate": 3.67,
+        "trading_value": 713727129050
+      },
+      {
+        "ticker": "083650",
+        "name": "비에이치아이",
+        "close": 98300,
+        "change_rate": -3.06,
+        "trading_value": 82524381550
+      },
+      {
+        "ticker": "319400",
+        "name": "현대무벡스",
+        "close": 30500,
+        "change_rate": 2.69,
+        "trading_value": 78581535275
+      },
+      {
+        "ticker": "077970",
+        "name": "STX엔진",
+        "close": 57300,
+        "change_rate": 11.26,
+        "trading_value": 78511214000
+      },
+      {
+        "ticker": "100840",
+        "name": "SNT에너지",
+        "close": 57600,
+        "change_rate": 6.08,
+        "trading_value": 32373008350
+      }
+    ]
+  },
+  {
+    "ticker": "078600",
+    "name": "대주전자재료",
+    "market": "KOSDAQ",
+    "close": 182800,
+    "change_rate": 29.65,
+    "trading_value": 317623839500,
+    "volume_surge": 7.4,
+    "body_ratio": 0.92,
+    "sector": "전자부품 제조업",
+    "related_stocks": [
+      {
+        "ticker": "009150",
+        "name": "삼성전기",
+        "close": 788000,
+        "change_rate": 1.81,
+        "trading_value": 427506611000
+      },
+      {
+        "ticker": "353200",
+        "name": "대덕전자",
+        "close": 115200,
+        "change_rate": 16.48,
+        "trading_value": 270882813200
+      },
+      {
+        "ticker": "011070",
+        "name": "LG이노텍",
+        "close": 542000,
+        "change_rate": 8.4,
+        "trading_value": 262560599500
+      },
+      {
+        "ticker": "007660",
+        "name": "이수페타시스",
+        "close": 153400,
+        "change_rate": 2.13,
+        "trading_value": 197080019250
+      },
+      {
+        "ticker": "417200",
+        "name": "LS머트리얼즈",
+        "close": 27200,
+        "change_rate": 4.41,
+        "trading_value": 187931256500
+      }
+    ]
+  },
+  {
+    "ticker": "089030",
+    "name": "테크윙",
+    "market": "KOSDAQ",
+    "close": 61800,
+    "change_rate": 12.36,
+    "trading_value": 300428331250,
+    "volume_surge": 4.8,
+    "body_ratio": 0.91,
+    "sector": "특수 목적용 기계 제조업",
+    "related_stocks": [
+      {
+        "ticker": "036930",
+        "name": "주성엔지니어링",
+        "close": 123900,
+        "change_rate": 6.63,
+        "trading_value": 503504061250
+      },
+      {
+        "ticker": "403870",
+        "name": "HPSP",
+        "close": 53400,
+        "change_rate": 4.71,
+        "trading_value": 334136555550
+      },
+      {
+        "ticker": "209640",
+        "name": "와이제이링크",
+        "close": 7520,
+        "change_rate": 17.68,
+        "trading_value": 258773247905
+      },
+      {
+        "ticker": "042700",
+        "name": "한미반도체",
+        "close": 295500,
+        "change_rate": 0.68,
+        "trading_value": 168082355500
+      },
+      {
+        "ticker": "222080",
+        "name": "씨아이에스",
+        "close": 16490,
+        "change_rate": 2.42,
+        "trading_value": 144032165855
+      }
+    ]
+  },
+  {
+    "ticker": "010060",
+    "name": "OCI홀딩스",
+    "market": "KOSPI",
+    "close": 384000,
+    "change_rate": 19.25,
+    "trading_value": 485242137500,
+    "volume_surge": 4.3,
+    "body_ratio": 0.81,
+    "sector": "기타 금융업",
+    "related_stocks": [
+      {
+        "ticker": "100790",
+        "name": "미래에셋벤처투자",
+        "close": 62400,
+        "change_rate": 5.76,
+        "trading_value": 451513072100
+      },
+      {
+        "ticker": "402340",
+        "name": "SK스퀘어",
+        "close": 725000,
+        "change_rate": -0.41,
+        "trading_value": 274294373000
+      },
+      {
+        "ticker": "105560",
+        "name": "KB금융",
+        "close": 157400,
+        "change_rate": -0.38,
+        "trading_value": 169155860300
+      },
+      {
+        "ticker": "086520",
+        "name": "에코프로",
+        "close": 156600,
+        "change_rate": -0.38,
+        "trading_value": 163296718600
+      },
+      {
+        "ticker": "009540",
+        "name": "HD한국조선해양",
+        "close": 476000,
+        "change_rate": 3.25,
+        "trading_value": 126239733750
+      }
+    ]
+  },
+  {
+    "ticker": "027360",
+    "name": "아주IB투자",
+    "market": "KOSDAQ",
+    "close": 18720,
+    "change_rate": 28.31,
+    "trading_value": 649903869295,
+    "volume_surge": 3.9,
+    "body_ratio": 0.89,
+    "sector": "기타 금융업",
+    "related_stocks": [
+      {
+        "ticker": "100790",
+        "name": "미래에셋벤처투자",
+        "close": 62400,
+        "change_rate": 5.76,
+        "trading_value": 451513072100
+      },
+      {
+        "ticker": "402340",
+        "name": "SK스퀘어",
+        "close": 725000,
+        "change_rate": -0.41,
+        "trading_value": 274294373000
+      },
+      {
+        "ticker": "105560",
+        "name": "KB금융",
+        "close": 157400,
+        "change_rate": -0.38,
+        "trading_value": 169155860300
+      },
+      {
+        "ticker": "086520",
+        "name": "에코프로",
+        "close": 156600,
+        "change_rate": -0.38,
+        "trading_value": 163296718600
+      },
+      {
+        "ticker": "009540",
+        "name": "HD한국조선해양",
+        "close": 476000,
+        "change_rate": 3.25,
+        "trading_value": 126239733750
+      }
+    ]
+  },
+  {
+    "ticker": "082740",
+    "name": "한화엔진",
+    "market": "KOSPI",
+    "close": 76000,
+    "change_rate": 8.42,
+    "trading_value": 232362933500,
+    "volume_surge": 3.7,
+    "body_ratio": 0.52,
+    "sector": "일반 목적용 기계 제조업",
+    "related_stocks": [
+      {
+        "ticker": "034020",
+        "name": "두산에너빌리티",
+        "close": 127100,
+        "change_rate": 3.67,
+        "trading_value": 713727129050
+      },
+      {
+        "ticker": "083650",
+        "name": "비에이치아이",
+        "close": 98300,
+        "change_rate": -3.06,
+        "trading_value": 82524381550
+      },
+      {
+        "ticker": "319400",
+        "name": "현대무벡스",
+        "close": 30500,
+        "change_rate": 2.69,
+        "trading_value": 78581535275
+      },
+      {
+        "ticker": "077970",
+        "name": "STX엔진",
+        "close": 57300,
+        "change_rate": 11.26,
+        "trading_value": 78511214000
+      },
+      {
+        "ticker": "100840",
+        "name": "SNT에너지",
+        "close": 57600,
+        "change_rate": 6.08,
+        "trading_value": 32373008350
+      }
+    ]
+  },
+  {
+    "ticker": "001440",
+    "name": "대한전선",
+    "market": "KOSPI",
+    "close": 42850,
+    "change_rate": 4.9,
+    "trading_value": 949334481275,
+    "volume_surge": 3.1,
+    "body_ratio": 0.5,
+    "sector": "절연선 및 케이블 제조업",
+    "related_stocks": [
+      {
+        "ticker": "006340",
+        "name": "대원전선",
+        "close": 9020,
+        "change_rate": 10.81,
+        "trading_value": 1032892998665
+      },
+      {
+        "ticker": "010170",
+        "name": "대한광통신",
+        "close": 13360,
+        "change_rate": -6.7,
+        "trading_value": 301038843740
+      },
+      {
+        "ticker": "103590",
+        "name": "일진전기",
+        "close": 96500,
+        "change_rate": 5.12,
+        "trading_value": 104139819350
+      },
+      {
+        "ticker": "000500",
+        "name": "가온전선",
+        "close": 201500,
+        "change_rate": -3.36,
+        "trading_value": 22875142550
+      },
+      {
+        "ticker": "125020",
+        "name": "티씨머티리얼즈",
+        "close": 6200,
+        "change_rate": 1.97,
+        "trading_value": 21103383470
+      }
+    ]
+  }
+]

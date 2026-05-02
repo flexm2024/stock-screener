@@ -1,0 +1,98 @@
+[
+  {
+    "ticker": "006340",
+    "name": "대원전선",
+    "market": "KOSPI",
+    "close": 8140,
+    "change_rate": 26.4,
+    "trading_value": 1023628916240,
+    "volume_surge": 23.1,
+    "body_ratio": 0.73,
+    "sector": "절연선 및 케이블 제조업",
+    "related_stocks": [
+      {
+        "ticker": "001440",
+        "name": "대한전선",
+        "close": 40850,
+        "change_rate": -0.49,
+        "trading_value": 841274572775
+      },
+      {
+        "ticker": "010170",
+        "name": "대한광통신",
+        "close": 14320,
+        "change_rate": -5.91,
+        "trading_value": 215346499155
+      },
+      {
+        "ticker": "103590",
+        "name": "일진전기",
+        "close": 91800,
+        "change_rate": 4.91,
+        "trading_value": 94769926900
+      },
+      {
+        "ticker": "000500",
+        "name": "가온전선",
+        "close": 208500,
+        "change_rate": 15.83,
+        "trading_value": 60229009350
+      },
+      {
+        "ticker": "217590",
+        "name": "티엠씨",
+        "close": 30450,
+        "change_rate": 4.64,
+        "trading_value": 26770616475
+      }
+    ]
+  },
+  {
+    "ticker": "006910",
+    "name": "보성파워텍",
+    "market": "KOSDAQ",
+    "close": 11870,
+    "change_rate": 18.34,
+    "trading_value": 479389369510,
+    "volume_surge": 18.5,
+    "body_ratio": 0.62,
+    "sector": "구조용 금속제품, 탱크 및 증기발생기 제조업",
+    "related_stocks": [
+      {
+        "ticker": "017960",
+        "name": "한국카본",
+        "close": 51500,
+        "change_rate": -1.34,
+        "trading_value": 39754987150
+      },
+      {
+        "ticker": "112610",
+        "name": "씨에스윈드",
+        "close": 68800,
+        "change_rate": -0.86,
+        "trading_value": 33379995050
+      },
+      {
+        "ticker": "054540",
+        "name": "삼영엠텍",
+        "close": 13850,
+        "change_rate": 1.17,
+        "trading_value": 18326076895
+      },
+      {
+        "ticker": "147830",
+        "name": "제룡산업",
+        "close": 8070,
+        "change_rate": 1.64,
+        "trading_value": 10483826130
+      },
+      {
+        "ticker": "096350",
+        "name": "대창솔루션",
+        "close": 3085,
+        "change_rate": 2.32,
+        "trading_value": 8726601934
+      }
+    ]
+  }
+]

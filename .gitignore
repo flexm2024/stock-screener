@@ -1,5 +1,7 @@
-# 스크리닝 결과 데이터
+# 스크리닝 결과 데이터 (루트만 제외, pwa_deploy/results는 포함)
 results/
+!pwa_deploy/results/
+!pwa_deploy/results/**
 
 # 환경변수
 .env
