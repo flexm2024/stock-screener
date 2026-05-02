@@ -9,11 +9,20 @@ DEPLOY_DIR  = os.path.join("pwa_deploy", "results")
 
 
 def _write_index():
-    """results/index.json 재생성 — PWA 뷰어가 날짜 목록을 읽는 용도"""
-    dates = available_dates()
+    """results/index.json 재생성 — pwa_deploy/results/ 기존 날짜와 합산"""
+    local_dates = set(available_dates())
+    # GitHub Actions 환경에서는 results/ 가 없어도 pwa_deploy/results/ 의 날짜를 포함
+    deploy_dates = set()
+    if os.path.exists(DEPLOY_DIR):
+        deploy_dates = {
+            f.replace(".json", "")
+            for f in os.listdir(DEPLOY_DIR)
+            if f.endswith(".json") and f[:8].isdigit()
+        }
+    all_dates = sorted(local_dates | deploy_dates, reverse=True)
     path = os.path.join(RESULTS_DIR, "index.json")
     with open(path, "w", encoding="utf-8") as f:
-        json.dump(dates, f)
+        json.dump(all_dates, f)
 
 
 def _sync_deploy(date: str):
