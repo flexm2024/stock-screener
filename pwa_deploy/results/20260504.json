@@ -1,0 +1,470 @@
+[
+  {
+    "ticker": "016360",
+    "name": "삼성증권",
+    "market": "KOSPI",
+    "close": 137900,
+    "change_rate": 28.28,
+    "direction": "양봉",
+    "trading_value": 558121362150,
+    "volume_surge": 16.0,
+    "sector": "금융 지원 서비스업",
+    "week52_low": 44450.0,
+    "week52_high": 119400.0,
+    "week52_pct": 84.1,
+    "related_stocks": [
+      {
+        "ticker": "006800",
+        "name": "미래에셋증권",
+        "close": 70300,
+        "change_rate": 8.49,
+        "trading_value": 445692528950
+      },
+      {
+        "ticker": "001510",
+        "name": "SK증권",
+        "close": 5190,
+        "change_rate": -0.76,
+        "trading_value": 410503583015
+      },
+      {
+        "ticker": "003530",
+        "name": "한화투자증권",
+        "close": 8190,
+        "change_rate": 9.05,
+        "trading_value": 163924360315
+      },
+      {
+        "ticker": "003470",
+        "name": "유안타증권",
+        "close": 6030,
+        "change_rate": 14.86,
+        "trading_value": 137211812715
+      },
+      {
+        "ticker": "039490",
+        "name": "키움증권",
+        "close": 422500,
+        "change_rate": 6.16,
+        "trading_value": 126386238750
+      }
+    ],
+    "streak": 1
+  },
+  {
+    "ticker": "018880",
+    "name": "한온시스템",
+    "market": "KOSPI",
+    "close": 4850,
+    "change_rate": 14.66,
+    "direction": "양봉",
+    "trading_value": 584742311158,
+    "volume_surge": 12.6,
+    "sector": "일반 목적용 기계 제조업",
+    "week52_low": 2732.0,
+    "week52_high": 5700.0,
+    "week52_pct": 50.5,
+    "related_stocks": [
+      {
+        "ticker": "034020",
+        "name": "두산에너빌리티",
+        "close": 127200,
+        "change_rate": 0.08,
+        "trading_value": 408045473800
+      },
+      {
+        "ticker": "082740",
+        "name": "한화엔진",
+        "close": 89500,
+        "change_rate": 1.7,
+        "trading_value": 93865868750
+      },
+      {
+        "ticker": "319400",
+        "name": "현대무벡스",
+        "close": 32450,
+        "change_rate": 3.51,
+        "trading_value": 70636408825
+      },
+      {
+        "ticker": "077970",
+        "name": "STX엔진",
+        "close": 60000,
+        "change_rate": -2.6,
+        "trading_value": 43854197450
+      },
+      {
+        "ticker": "083650",
+        "name": "비에이치아이",
+        "close": 99200,
+        "change_rate": 1.74,
+        "trading_value": 32116266550
+      }
+    ],
+    "streak": 1
+  },
+  {
+    "ticker": "006910",
+    "name": "보성파워텍",
+    "market": "KOSDAQ",
+    "close": 14350,
+    "change_rate": 18.79,
+    "direction": "양봉",
+    "trading_value": 642222744870,
+    "volume_surge": 9.9,
+    "sector": "구조용 금속제품, 탱크 및 증기발생기 제조업",
+    "week52_low": 2685.0,
+    "week52_high": 13800.0,
+    "week52_pct": 84.5,
+    "related_stocks": [
+      {
+        "ticker": "112610",
+        "name": "씨에스윈드",
+        "close": 69700,
+        "change_rate": -2.65,
+        "trading_value": 31456561950
+      },
+      {
+        "ticker": "147830",
+        "name": "제룡산업",
+        "close": 12730,
+        "change_rate": 8.9,
+        "trading_value": 20671837230
+      },
+      {
+        "ticker": "017960",
+        "name": "한국카본",
+        "close": 48800,
+        "change_rate": -1.51,
+        "trading_value": 17121021875
+      },
+      {
+        "ticker": "098070",
+        "name": "한텍",
+        "close": 46150,
+        "change_rate": -2.43,
+        "trading_value": 5564559750
+      },
+      {
+        "ticker": "096350",
+        "name": "대창솔루션",
+        "close": 3100,
+        "change_rate": 1.81,
+        "trading_value": 4002777554
+      }
+    ],
+    "streak": 1
+  },
+  {
+    "ticker": "033100",
+    "name": "제룡전기",
+    "market": "KOSDAQ",
+    "close": 91500,
+    "change_rate": 29.97,
+    "direction": "양봉",
+    "trading_value": 235835037800,
+    "volume_surge": 9.8,
+    "sector": "전동기, 발전기 및 전기 변환 · 공급 · 제어 장치 제조업",
+    "week52_low": 30050.0,
+    "week52_high": 72000.0,
+    "week52_pct": 96.2,
+    "related_stocks": [
+      {
+        "ticker": "010120",
+        "name": "엘에스일렉트릭",
+        "close": 294000,
+        "change_rate": 5.76,
+        "trading_value": 432240344000
+      },
+      {
+        "ticker": "298040",
+        "name": "효성중공업",
+        "close": 4228000,
+        "change_rate": 8.08,
+        "trading_value": 281594335000
+      },
+      {
+        "ticker": "267260",
+        "name": "HD현대일렉트릭",
+        "close": 1299000,
+        "change_rate": 3.75,
+        "trading_value": 247808618500
+      },
+      {
+        "ticker": "032820",
+        "name": "우리기술",
+        "close": 21550,
+        "change_rate": -0.23,
+        "trading_value": 168495947450
+      },
+      {
+        "ticker": "388050",
+        "name": "지투파워",
+        "close": 16250,
+        "change_rate": 11.23,
+        "trading_value": 77301170510
+      }
+    ],
+    "streak": 1
+  },
+  {
+    "ticker": "199820",
+    "name": "제일일렉트릭",
+    "market": "KOSDAQ",
+    "close": 20700,
+    "change_rate": 19.93,
+    "direction": "양봉",
+    "trading_value": 334780484605,
+    "volume_surge": 9.5,
+    "sector": "전동기, 발전기 및 전기 변환 · 공급 · 제어 장치 제조업",
+    "week52_low": 8220.0,
+    "week52_high": 19800.0,
+    "week52_pct": 78.1,
+    "related_stocks": [
+      {
+        "ticker": "010120",
+        "name": "엘에스일렉트릭",
+        "close": 294000,
+        "change_rate": 5.76,
+        "trading_value": 432240344000
+      },
+      {
+        "ticker": "298040",
+        "name": "효성중공업",
+        "close": 4228000,
+        "change_rate": 8.08,
+        "trading_value": 281594335000
+      },
+      {
+        "ticker": "267260",
+        "name": "HD현대일렉트릭",
+        "close": 1299000,
+        "change_rate": 3.75,
+        "trading_value": 247808618500
+      },
+      {
+        "ticker": "032820",
+        "name": "우리기술",
+        "close": 21550,
+        "change_rate": -0.23,
+        "trading_value": 168495947450
+      },
+      {
+        "ticker": "388050",
+        "name": "지투파워",
+        "close": 16250,
+        "change_rate": 11.23,
+        "trading_value": 77301170510
+      }
+    ],
+    "streak": 1
+  },
+  {
+    "ticker": "103590",
+    "name": "일진전기",
+    "market": "KOSPI",
+    "close": 144100,
+    "change_rate": 17.63,
+    "direction": "양봉",
+    "trading_value": 310314989600,
+    "volume_surge": 5.2,
+    "sector": "절연선 및 케이블 제조업",
+    "week52_low": 22550.0,
+    "week52_high": 128200.0,
+    "week52_pct": 94.6,
+    "related_stocks": [
+      {
+        "ticker": "010170",
+        "name": "대한광통신",
+        "close": 17700,
+        "change_rate": 16.83,
+        "trading_value": 1444180659070
+      },
+      {
+        "ticker": "001440",
+        "name": "대한전선",
+        "close": 60700,
+        "change_rate": 7.82,
+        "trading_value": 1222318615650
+      },
+      {
+        "ticker": "006340",
+        "name": "대원전선",
+        "close": 17350,
+        "change_rate": 15.28,
+        "trading_value": 712309014940
+      },
+      {
+        "ticker": "125020",
+        "name": "티씨머티리얼즈",
+        "close": 8750,
+        "change_rate": 3.8,
+        "trading_value": 90404032705
+      },
+      {
+        "ticker": "475430",
+        "name": "키스트론",
+        "close": 6980,
+        "change_rate": 19.11,
+        "trading_value": 80069579390
+      }
+    ],
+    "streak": 1
+  },
+  {
+    "ticker": "062040",
+    "name": "산일전기",
+    "market": "KOSPI",
+    "close": 333500,
+    "change_rate": 25.38,
+    "direction": "양봉",
+    "trading_value": 660463328500,
+    "volume_surge": 4.9,
+    "sector": "전동기, 발전기 및 전기 변환 · 공급 · 제어 장치 제조업",
+    "week52_low": 48400.0,
+    "week52_high": 281500.0,
+    "week52_pct": 93.4,
+    "related_stocks": [
+      {
+        "ticker": "010120",
+        "name": "엘에스일렉트릭",
+        "close": 294000,
+        "change_rate": 5.76,
+        "trading_value": 432240344000
+      },
+      {
+        "ticker": "298040",
+        "name": "효성중공업",
+        "close": 4228000,
+        "change_rate": 8.08,
+        "trading_value": 281594335000
+      },
+      {
+        "ticker": "267260",
+        "name": "HD현대일렉트릭",
+        "close": 1299000,
+        "change_rate": 3.75,
+        "trading_value": 247808618500
+      },
+      {
+        "ticker": "032820",
+        "name": "우리기술",
+        "close": 21550,
+        "change_rate": -0.23,
+        "trading_value": 168495947450
+      },
+      {
+        "ticker": "388050",
+        "name": "지투파워",
+        "close": 16250,
+        "change_rate": 11.23,
+        "trading_value": 77301170510
+      }
+    ],
+    "streak": 1
+  },
+  {
+    "ticker": "432720",
+    "name": "퀄리타스반도체",
+    "market": "KOSDAQ",
+    "close": 29500,
+    "change_rate": 17.76,
+    "direction": "양봉",
+    "trading_value": 207434062250,
+    "volume_surge": 4.2,
+    "sector": "반도체 제조업",
+    "week52_low": 10190.0,
+    "week52_high": 27950.0,
+    "week52_pct": 83.7,
+    "related_stocks": [
+      {
+        "ticker": "000660",
+        "name": "SK하이닉스",
+        "close": 1447000,
+        "change_rate": 12.52,
+        "trading_value": 8099065567750
+      },
+      {
+        "ticker": "080220",
+        "name": "제주반도체",
+        "close": 56700,
+        "change_rate": 8.21,
+        "trading_value": 318162447900
+      },
+      {
+        "ticker": "067310",
+        "name": "하나마이크론",
+        "close": 42050,
+        "change_rate": 5.92,
+        "trading_value": 151996407750
+      },
+      {
+        "ticker": "059120",
+        "name": "아진엑스텍",
+        "close": 11580,
+        "change_rate": 29.97,
+        "trading_value": 151334046750
+      },
+      {
+        "ticker": "322000",
+        "name": "HD현대에너지솔루션",
+        "close": 221000,
+        "change_rate": -4.33,
+        "trading_value": 140549377250
+      }
+    ],
+    "streak": 1
+  },
+  {
+    "ticker": "402340",
+    "name": "SK스퀘어",
+    "market": "KOSPI",
+    "close": 991000,
+    "change_rate": 17.84,
+    "direction": "양봉",
+    "trading_value": 1417294936011,
+    "volume_surge": 4.0,
+    "sector": "기타 금융업",
+    "week52_low": 80700.0,
+    "week52_high": 877000.0,
+    "week52_pct": 95.5,
+    "related_stocks": [
+      {
+        "ticker": "027360",
+        "name": "아주IB투자",
+        "close": 15460,
+        "change_rate": 3.07,
+        "trading_value": 239881493940
+      },
+      {
+        "ticker": "105560",
+        "name": "KB금융",
+        "close": 157800,
+        "change_rate": -1.68,
+        "trading_value": 230728843600
+      },
+      {
+        "ticker": "006260",
+        "name": "LS",
+        "close": 509000,
+        "change_rate": 12.36,
+        "trading_value": 184919663000
+      },
+      {
+        "ticker": "055550",
+        "name": "신한지주",
+        "close": 98000,
+        "change_rate": -1.9,
+        "trading_value": 174778479593
+      },
+      {
+        "ticker": "034730",
+        "name": "SK",
+        "close": 475500,
+        "change_rate": 11.88,
+        "trading_value": 150400299750
+      }
+    ],
+    "streak": 1
+  }
+]
