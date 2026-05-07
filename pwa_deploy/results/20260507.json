@@ -1,0 +1,158 @@
+[
+  {
+    "ticker": "017550",
+    "name": "수산세보틱스",
+    "market": "KOSPI",
+    "close": 3860,
+    "change_rate": 23.92,
+    "direction": "양봉",
+    "trading_value": 212139316344,
+    "volume_surge": 7.9,
+    "sector": "특수 목적용 기계 제조업",
+    "week52_low": 1630.0,
+    "week52_high": 3820.0,
+    "week52_pct": 67.8,
+    "related_stocks": [
+      {
+        "ticker": "454910",
+        "name": "두산로보틱스",
+        "close": 99100,
+        "change_rate": -5.35,
+        "trading_value": 543880865750
+      },
+      {
+        "ticker": "042700",
+        "name": "한미반도체",
+        "close": 393000,
+        "change_rate": -0.38,
+        "trading_value": 478918315750
+      },
+      {
+        "ticker": "078150",
+        "name": "HB테크놀러지",
+        "close": 4530,
+        "change_rate": 12.69,
+        "trading_value": 309849019870
+      },
+      {
+        "ticker": "036930",
+        "name": "주성엔지니어링",
+        "close": 135100,
+        "change_rate": 5.88,
+        "trading_value": 186683699450
+      },
+      {
+        "ticker": "277810",
+        "name": "레인보우로보틱스",
+        "close": 697000,
+        "change_rate": -0.71,
+        "trading_value": 141514751000
+      }
+    ],
+    "streak": 1
+  },
+  {
+    "ticker": "138080",
+    "name": "오이솔루션",
+    "market": "KOSDAQ",
+    "close": 54000,
+    "change_rate": 21.08,
+    "direction": "양봉",
+    "trading_value": 293355957475,
+    "volume_surge": 7.9,
+    "sector": "통신 및 방송 장비 제조업",
+    "week52_low": 8600.0,
+    "week52_high": 50800.0,
+    "week52_pct": 85.3,
+    "related_stocks": [
+      {
+        "ticker": "005930",
+        "name": "삼성전자",
+        "close": 271500,
+        "change_rate": 2.07,
+        "trading_value": 11101719159250
+      },
+      {
+        "ticker": "050890",
+        "name": "쏠리드",
+        "close": 18850,
+        "change_rate": 2.22,
+        "trading_value": 347911884160
+      },
+      {
+        "ticker": "066570",
+        "name": "LG전자",
+        "close": 148700,
+        "change_rate": -4.0,
+        "trading_value": 288204867900
+      },
+      {
+        "ticker": "100590",
+        "name": "머큐리",
+        "close": 9900,
+        "change_rate": 11.49,
+        "trading_value": 133116333395
+      },
+      {
+        "ticker": "489790",
+        "name": "한화비전",
+        "close": 83000,
+        "change_rate": -7.47,
+        "trading_value": 84770827700
+      }
+    ],
+    "streak": 1
+  },
+  {
+    "ticker": "028050",
+    "name": "삼성E&A",
+    "market": "KOSPI",
+    "close": 64400,
+    "change_rate": 21.51,
+    "direction": "양봉",
+    "trading_value": 891968370640,
+    "volume_surge": 4.2,
+    "sector": "건축기술, 엔지니어링 및 관련 기술 서비스업",
+    "week52_low": 18700.0,
+    "week52_high": 57800.0,
+    "week52_pct": 87.7,
+    "related_stocks": [
+      {
+        "ticker": "443060",
+        "name": "HD현대마린솔루션",
+        "close": 269500,
+        "change_rate": 3.45,
+        "trading_value": 75267017742
+      },
+      {
+        "ticker": "037440",
+        "name": "희림",
+        "close": 7460,
+        "change_rate": 29.97,
+        "trading_value": 68570984225
+      },
+      {
+        "ticker": "490470",
+        "name": "세미파이브",
+        "close": 42750,
+        "change_rate": -6.25,
+        "trading_value": 62771200725
+      },
+      {
+        "ticker": "052690",
+        "name": "한전기술",
+        "close": 185400,
+        "change_rate": 1.87,
+        "trading_value": 56913357500
+      },
+      {
+        "ticker": "130660",
+        "name": "한전산업",
+        "close": 19600,
+        "change_rate": -4.39,
+        "trading_value": 17936775220
+      }
+    ],
+    "streak": 1
+  }
+]
