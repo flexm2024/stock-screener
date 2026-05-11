@@ -1,0 +1,210 @@
+[
+  {
+    "ticker": "307950",
+    "name": "현대오토에버",
+    "market": "KOSPI",
+    "close": 635000,
+    "change_rate": 7.26,
+    "direction": "양봉",
+    "trading_value": 767473383500,
+    "volume_surge": 9.0,
+    "sector": "소프트웨어 개발 및 공급업",
+    "week52_low": 114300.0,
+    "week52_high": 592000.0,
+    "week52_pct": 100.0,
+    "related_stocks": [
+      {
+        "ticker": "347700",
+        "name": "스피어",
+        "close": 46950,
+        "change_rate": 12.73,
+        "trading_value": 151181454650
+      },
+      {
+        "ticker": "203650",
+        "name": "드림시큐리티",
+        "close": 3790,
+        "change_rate": 3.69,
+        "trading_value": 64477232642
+      },
+      {
+        "ticker": "259960",
+        "name": "크래프톤",
+        "close": 284500,
+        "change_rate": 4.21,
+        "trading_value": 61477885250
+      },
+      {
+        "ticker": "465480",
+        "name": "인스피언",
+        "close": 6010,
+        "change_rate": 6.94,
+        "trading_value": 46551127415
+      },
+      {
+        "ticker": "466100",
+        "name": "클로봇",
+        "close": 50600,
+        "change_rate": 1.2,
+        "trading_value": 31165941250
+      }
+    ],
+    "streak": 1
+  },
+  {
+    "ticker": "018880",
+    "name": "한온시스템",
+    "market": "KOSPI",
+    "close": 5730,
+    "change_rate": 20.13,
+    "direction": "양봉",
+    "trading_value": 860710352821,
+    "volume_surge": 6.8,
+    "sector": "일반 목적용 기계 제조업",
+    "week52_low": 2732.0,
+    "week52_high": 5700.0,
+    "week52_pct": 68.7,
+    "related_stocks": [
+      {
+        "ticker": "034020",
+        "name": "두산에너빌리티",
+        "close": 128000,
+        "change_rate": -1.23,
+        "trading_value": 464887893150
+      },
+      {
+        "ticker": "319400",
+        "name": "현대무벡스",
+        "close": 38700,
+        "change_rate": 1.98,
+        "trading_value": 292639182100
+      },
+      {
+        "ticker": "012200",
+        "name": "계양전기",
+        "close": 8460,
+        "change_rate": -0.24,
+        "trading_value": 185064776295
+      },
+      {
+        "ticker": "389500",
+        "name": "에스비비테크",
+        "close": 90000,
+        "change_rate": 25.7,
+        "trading_value": 144416094250
+      },
+      {
+        "ticker": "082740",
+        "name": "한화엔진",
+        "close": 78400,
+        "change_rate": -1.26,
+        "trading_value": 76354201650
+      }
+    ],
+    "streak": 1
+  },
+  {
+    "ticker": "108490",
+    "name": "로보티즈",
+    "market": "KOSDAQ",
+    "close": 377500,
+    "change_rate": 12.86,
+    "direction": "양봉",
+    "trading_value": 368540125750,
+    "volume_surge": 3.6,
+    "sector": "특수 목적용 기계 제조업",
+    "week52_low": 32671.0,
+    "week52_high": 364000.0,
+    "week52_pct": 91.1,
+    "related_stocks": [
+      {
+        "ticker": "042700",
+        "name": "한미반도체",
+        "close": 400000,
+        "change_rate": 2.56,
+        "trading_value": 449804307500
+      },
+      {
+        "ticker": "036930",
+        "name": "주성엔지니어링",
+        "close": 163800,
+        "change_rate": 17.93,
+        "trading_value": 337676807900
+      },
+      {
+        "ticker": "098460",
+        "name": "고영",
+        "close": 41500,
+        "change_rate": 1.97,
+        "trading_value": 202005723650
+      },
+      {
+        "ticker": "078150",
+        "name": "HB테크놀러지",
+        "close": 4965,
+        "change_rate": 2.8,
+        "trading_value": 188837550222
+      },
+      {
+        "ticker": "240810",
+        "name": "원익IPS",
+        "close": 141600,
+        "change_rate": 6.55,
+        "trading_value": 168290797750
+      }
+    ],
+    "streak": 1
+  },
+  {
+    "ticker": "277810",
+    "name": "레인보우로보틱스",
+    "market": "KOSDAQ",
+    "close": 865000,
+    "change_rate": 10.33,
+    "direction": "양봉",
+    "trading_value": 373674774000,
+    "volume_surge": 3.2,
+    "sector": "특수 목적용 기계 제조업",
+    "week52_low": 249500.0,
+    "week52_high": 934000.0,
+    "week52_pct": 78.1,
+    "related_stocks": [
+      {
+        "ticker": "042700",
+        "name": "한미반도체",
+        "close": 400000,
+        "change_rate": 2.56,
+        "trading_value": 449804307500
+      },
+      {
+        "ticker": "036930",
+        "name": "주성엔지니어링",
+        "close": 163800,
+        "change_rate": 17.93,
+        "trading_value": 337676807900
+      },
+      {
+        "ticker": "098460",
+        "name": "고영",
+        "close": 41500,
+        "change_rate": 1.97,
+        "trading_value": 202005723650
+      },
+      {
+        "ticker": "078150",
+        "name": "HB테크놀러지",
+        "close": 4965,
+        "change_rate": 2.8,
+        "trading_value": 188837550222
+      },
+      {
+        "ticker": "240810",
+        "name": "원익IPS",
+        "close": 141600,
+        "change_rate": 6.55,
+        "trading_value": 168290797750
+      }
+    ],
+    "streak": 1
+  }
+]
