@@ -1,0 +1,54 @@
+[
+  {
+    "ticker": "066570",
+    "name": "LG전자",
+    "market": "KOSPI",
+    "close": 184900,
+    "change_rate": 18.0,
+    "direction": "양봉",
+    "trading_value": 1882597745230,
+    "volume_surge": 9.0,
+    "sector": "통신 및 방송 장비 제조업",
+    "week52_low": 68300.0,
+    "week52_high": 158600.0,
+    "week52_pct": 97.9,
+    "related_stocks": [
+      {
+        "ticker": "005930",
+        "name": "삼성전자",
+        "close": 279000,
+        "change_rate": -2.28,
+        "trading_value": 11516481508515
+      },
+      {
+        "ticker": "218410",
+        "name": "RFHIC",
+        "close": 112500,
+        "change_rate": 8.17,
+        "trading_value": 199657283000
+      },
+      {
+        "ticker": "489790",
+        "name": "한화비전",
+        "close": 80200,
+        "change_rate": 1.26,
+        "trading_value": 166628908850
+      },
+      {
+        "ticker": "215790",
+        "name": "이노인스트루먼트",
+        "close": 2305,
+        "change_rate": 16.0,
+        "trading_value": 128249524333
+      },
+      {
+        "ticker": "050890",
+        "name": "쏠리드",
+        "close": 17400,
+        "change_rate": -4.13,
+        "trading_value": 105845353070
+      }
+    ],
+    "streak": 1
+  }
+]
