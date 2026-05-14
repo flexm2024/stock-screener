@@ -1,0 +1,314 @@
+[
+  {
+    "ticker": "064400",
+    "name": "LG씨엔에스",
+    "market": "KOSPI",
+    "close": 86100,
+    "change_rate": 17.14,
+    "direction": "양봉",
+    "trading_value": 804884524150,
+    "volume_surge": 14.2,
+    "sector": "컴퓨터 프로그래밍, 시스템 통합 및 관리업",
+    "week52_low": 49600.0,
+    "week52_high": 100800.0,
+    "week52_pct": 46.7,
+    "related_stocks": [
+      {
+        "ticker": "018260",
+        "name": "삼성에스디에스",
+        "close": 182900,
+        "change_rate": 2.01,
+        "trading_value": 109041478650
+      },
+      {
+        "ticker": "039980",
+        "name": "폴라리스AI",
+        "close": 9140,
+        "change_rate": 14.25,
+        "trading_value": 62940887070
+      },
+      {
+        "ticker": "012510",
+        "name": "더존비즈온",
+        "close": 120000,
+        "change_rate": 0.76,
+        "trading_value": 33419082300
+      },
+      {
+        "ticker": "451760",
+        "name": "컨텍",
+        "close": 19010,
+        "change_rate": -11.17,
+        "trading_value": 13706576575
+      },
+      {
+        "ticker": "115500",
+        "name": "케이씨에스",
+        "close": 17170,
+        "change_rate": -8.82,
+        "trading_value": 13266537170
+      }
+    ],
+    "streak": 1
+  },
+  {
+    "ticker": "088350",
+    "name": "한화생명",
+    "market": "KOSPI",
+    "close": 5490,
+    "change_rate": 10.24,
+    "direction": "양봉",
+    "trading_value": 248839188230,
+    "volume_surge": 8.3,
+    "sector": "보험업",
+    "week52_low": 2525.0,
+    "week52_high": 7560.0,
+    "week52_pct": 48.8,
+    "related_stocks": [
+      {
+        "ticker": "032830",
+        "name": "삼성생명",
+        "close": 330000,
+        "change_rate": 7.84,
+        "trading_value": 201194574250
+      },
+      {
+        "ticker": "000810",
+        "name": "삼성화재해상보험",
+        "close": 538000,
+        "change_rate": 8.03,
+        "trading_value": 141859475842
+      },
+      {
+        "ticker": "005830",
+        "name": "DB손해보험",
+        "close": 173000,
+        "change_rate": 7.59,
+        "trading_value": 49411861100
+      },
+      {
+        "ticker": "001450",
+        "name": "현대해상",
+        "close": 32750,
+        "change_rate": 8.26,
+        "trading_value": 49306539100
+      },
+      {
+        "ticker": "000370",
+        "name": "한화손해보험",
+        "close": 6850,
+        "change_rate": 9.08,
+        "trading_value": 11190967990
+      }
+    ],
+    "streak": 1
+  },
+  {
+    "ticker": "034220",
+    "name": "LG디스플레이",
+    "market": "KOSPI",
+    "close": 15340,
+    "change_rate": 8.26,
+    "direction": "양봉",
+    "trading_value": 448669863915,
+    "volume_surge": 3.9,
+    "sector": "전자부품 제조업",
+    "week52_low": 8050.0,
+    "week52_high": 16050.0,
+    "week52_pct": 76.5,
+    "related_stocks": [
+      {
+        "ticker": "009150",
+        "name": "삼성전기",
+        "close": 1024000,
+        "change_rate": -0.49,
+        "trading_value": 690410931000
+      },
+      {
+        "ticker": "011070",
+        "name": "LG이노텍",
+        "close": 760000,
+        "change_rate": 0.93,
+        "trading_value": 190708609000
+      },
+      {
+        "ticker": "014910",
+        "name": "성문전자",
+        "close": 3365,
+        "change_rate": 2.12,
+        "trading_value": 152501249171
+      },
+      {
+        "ticker": "272210",
+        "name": "한화시스템",
+        "close": 116100,
+        "change_rate": 5.93,
+        "trading_value": 145091303550
+      },
+      {
+        "ticker": "000150",
+        "name": "두산",
+        "close": 1703000,
+        "change_rate": 1.25,
+        "trading_value": 130398272000
+      }
+    ],
+    "streak": 1
+  },
+  {
+    "ticker": "003230",
+    "name": "삼양식품",
+    "market": "KOSPI",
+    "close": 1439000,
+    "change_rate": 11.12,
+    "direction": "양봉",
+    "trading_value": 263571426500,
+    "volume_surge": 3.5,
+    "sector": "기타 식품 제조업",
+    "week52_low": 922000.0,
+    "week52_high": 1665000.0,
+    "week52_pct": 50.2,
+    "related_stocks": [
+      {
+        "ticker": "097950",
+        "name": "CJ제일제당",
+        "close": 230500,
+        "change_rate": 10.55,
+        "trading_value": 31262139000
+      },
+      {
+        "ticker": "004370",
+        "name": "농심",
+        "close": 389500,
+        "change_rate": 7.15,
+        "trading_value": 27860752750
+      },
+      {
+        "ticker": "271560",
+        "name": "오리온",
+        "close": 143200,
+        "change_rate": 3.92,
+        "trading_value": 11511306900
+      },
+      {
+        "ticker": "222040",
+        "name": "코스맥스엔비티",
+        "close": 8030,
+        "change_rate": 11.53,
+        "trading_value": 7205130095
+      },
+      {
+        "ticker": "357230",
+        "name": "에이치피오",
+        "close": 2960,
+        "change_rate": 6.28,
+        "trading_value": 4782358846
+      }
+    ],
+    "streak": 1
+  },
+  {
+    "ticker": "080220",
+    "name": "제주반도체",
+    "market": "KOSDAQ",
+    "close": 75600,
+    "change_rate": 28.35,
+    "direction": "양봉",
+    "trading_value": 769700670200,
+    "volume_surge": 3.3,
+    "sector": "반도체 제조업",
+    "week52_low": 12210.0,
+    "week52_high": 62600.0,
+    "week52_pct": 92.7,
+    "related_stocks": [
+      {
+        "ticker": "000660",
+        "name": "SK하이닉스",
+        "close": 1970000,
+        "change_rate": -0.3,
+        "trading_value": 11875492405612
+      },
+      {
+        "ticker": "322000",
+        "name": "HD현대에너지솔루션",
+        "close": 244000,
+        "change_rate": 15.09,
+        "trading_value": 547230980500
+      },
+      {
+        "ticker": "092190",
+        "name": "서울바이오시스",
+        "close": 16980,
+        "change_rate": 10.84,
+        "trading_value": 97810325260
+      },
+      {
+        "ticker": "440110",
+        "name": "파두",
+        "close": 103500,
+        "change_rate": 3.5,
+        "trading_value": 95393060700
+      },
+      {
+        "ticker": "067310",
+        "name": "하나마이크론",
+        "close": 44600,
+        "change_rate": 1.94,
+        "trading_value": 94003206200
+      }
+    ],
+    "streak": 1
+  },
+  {
+    "ticker": "196170",
+    "name": "알테오젠",
+    "market": "KOSDAQ",
+    "close": 385000,
+    "change_rate": 8.76,
+    "direction": "양봉",
+    "trading_value": 426291683750,
+    "volume_surge": 3.2,
+    "sector": "자연과학 및 공학 연구개발업",
+    "week52_low": 315500.0,
+    "week52_high": 569000.0,
+    "week52_pct": 15.2,
+    "related_stocks": [
+      {
+        "ticker": "141080",
+        "name": "리가켐바이오",
+        "close": 195900,
+        "change_rate": -0.91,
+        "trading_value": 94716742550
+      },
+      {
+        "ticker": "226950",
+        "name": "올릭스",
+        "close": 160500,
+        "change_rate": 2.95,
+        "trading_value": 34903592000
+      },
+      {
+        "ticker": "310210",
+        "name": "보로노이",
+        "close": 267000,
+        "change_rate": 0.38,
+        "trading_value": 30079306000
+      },
+      {
+        "ticker": "476830",
+        "name": "알지노믹스",
+        "close": 154400,
+        "change_rate": 1.05,
+        "trading_value": 28473783300
+      },
+      {
+        "ticker": "326030",
+        "name": "에스케이바이오팜",
+        "close": 102400,
+        "change_rate": 3.23,
+        "trading_value": 25072683200
+      }
+    ],
+    "streak": 1
+  }
+]
