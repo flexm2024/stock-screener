@@ -1,0 +1,106 @@
+[
+  {
+    "ticker": "454910",
+    "name": "두산로보틱스",
+    "market": "KOSPI",
+    "close": 127400,
+    "change_rate": 19.29,
+    "direction": "양봉",
+    "trading_value": 1079484363100,
+    "volume_surge": 11.0,
+    "sector": "특수 목적용 기계 제조업",
+    "week52_low": 45750.0,
+    "week52_high": 130600.0,
+    "week52_pct": 72.0,
+    "related_stocks": [
+      {
+        "ticker": "090710",
+        "name": "휴림로봇",
+        "close": 13120,
+        "change_rate": 3.88,
+        "trading_value": 702745775345
+      },
+      {
+        "ticker": "036930",
+        "name": "주성엔지니어링",
+        "close": 140200,
+        "change_rate": -16.55,
+        "trading_value": 511859892250
+      },
+      {
+        "ticker": "042700",
+        "name": "한미반도체",
+        "close": 369000,
+        "change_rate": -9.89,
+        "trading_value": 401247356000
+      },
+      {
+        "ticker": "277810",
+        "name": "레인보우로보틱스",
+        "close": 810000,
+        "change_rate": -3.69,
+        "trading_value": 325250727000
+      },
+      {
+        "ticker": "090360",
+        "name": "로보스타",
+        "close": 88800,
+        "change_rate": 9.9,
+        "trading_value": 188599045350
+      }
+    ],
+    "streak": 1
+  },
+  {
+    "ticker": "067310",
+    "name": "하나마이크론",
+    "market": "KOSDAQ",
+    "close": 52900,
+    "change_rate": 18.61,
+    "direction": "양봉",
+    "trading_value": 692566265825,
+    "volume_surge": 6.9,
+    "sector": "반도체 제조업",
+    "week52_low": 10030.0,
+    "week52_high": 46350.0,
+    "week52_pct": 95.2,
+    "related_stocks": [
+      {
+        "ticker": "000660",
+        "name": "SK하이닉스",
+        "close": 1819000,
+        "change_rate": -7.66,
+        "trading_value": 14133100318500
+      },
+      {
+        "ticker": "080220",
+        "name": "제주반도체",
+        "close": 82300,
+        "change_rate": 8.86,
+        "trading_value": 891088837400
+      },
+      {
+        "ticker": "036540",
+        "name": "SFA반도체",
+        "close": 8610,
+        "change_rate": 3.99,
+        "trading_value": 283354788255
+      },
+      {
+        "ticker": "322000",
+        "name": "HD현대에너지솔루션",
+        "close": 196800,
+        "change_rate": -19.34,
+        "trading_value": 258027669700
+      },
+      {
+        "ticker": "440110",
+        "name": "파두",
+        "close": 100100,
+        "change_rate": -3.29,
+        "trading_value": 228795458050
+      }
+    ],
+    "streak": 1
+  }
+]
