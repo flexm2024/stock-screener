@@ -1,0 +1,54 @@
+[
+  {
+    "ticker": "001820",
+    "name": "삼화콘덴서공업",
+    "market": "KOSPI",
+    "close": 78600,
+    "change_rate": 23.0,
+    "direction": "양봉",
+    "trading_value": 219496335100,
+    "volume_surge": 12.1,
+    "sector": "전자부품 제조업",
+    "week52_low": 23700.0,
+    "week52_high": 73000.0,
+    "week52_pct": 81.5,
+    "related_stocks": [
+      {
+        "ticker": "009150",
+        "name": "삼성전기",
+        "close": 1061000,
+        "change_rate": 7.5,
+        "trading_value": 1937442450500
+      },
+      {
+        "ticker": "011070",
+        "name": "LG이노텍",
+        "close": 760000,
+        "change_rate": -4.16,
+        "trading_value": 341446164000
+      },
+      {
+        "ticker": "007660",
+        "name": "이수페타시스",
+        "close": 121600,
+        "change_rate": 0.58,
+        "trading_value": 169056443650
+      },
+      {
+        "ticker": "000150",
+        "name": "두산",
+        "close": 1478000,
+        "change_rate": -1.47,
+        "trading_value": 143015174500
+      },
+      {
+        "ticker": "043260",
+        "name": "성호전자",
+        "close": 39400,
+        "change_rate": 11.61,
+        "trading_value": 135421868950
+      }
+    ],
+    "streak": 1
+  }
+]
