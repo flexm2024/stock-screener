@@ -1,0 +1,54 @@
+[
+  {
+    "ticker": "003550",
+    "name": "LG",
+    "market": "KOSPI",
+    "close": 123000,
+    "change_rate": 19.3,
+    "direction": "양봉",
+    "trading_value": 257240040100,
+    "volume_surge": 4.3,
+    "sector": "기타 금융업",
+    "week52_low": 66600.0,
+    "week52_high": 152100.0,
+    "week52_pct": 42.7,
+    "related_stocks": [
+      {
+        "ticker": "402340",
+        "name": "SK스퀘어",
+        "close": 1179000,
+        "change_rate": 14.58,
+        "trading_value": 1084954798000
+      },
+      {
+        "ticker": "027360",
+        "name": "아주IB투자",
+        "close": 16020,
+        "change_rate": 3.22,
+        "trading_value": 182124962100
+      },
+      {
+        "ticker": "034730",
+        "name": "SK",
+        "close": 576000,
+        "change_rate": 9.51,
+        "trading_value": 159787637500
+      },
+      {
+        "ticker": "086520",
+        "name": "에코프로",
+        "close": 129800,
+        "change_rate": 9.35,
+        "trading_value": 156003677650
+      },
+      {
+        "ticker": "100790",
+        "name": "미래에셋벤처투자",
+        "close": 56300,
+        "change_rate": 4.07,
+        "trading_value": 129227007200
+      }
+    ],
+    "streak": 1
+  }
+]
