@@ -1,0 +1,210 @@
+[
+  {
+    "ticker": "036540",
+    "name": "SFA반도체",
+    "market": "KOSDAQ",
+    "close": 10250,
+    "change_rate": 14.53,
+    "direction": "양봉",
+    "trading_value": 713622640145,
+    "volume_surge": 5.5,
+    "sector": "반도체 제조업",
+    "week52_low": 2815.0,
+    "week52_high": 10960.0,
+    "week52_pct": 91.3,
+    "related_stocks": [
+      {
+        "ticker": "000660",
+        "name": "SK하이닉스",
+        "close": 1941000,
+        "change_rate": 0.05,
+        "trading_value": 6074722419170
+      },
+      {
+        "ticker": "080220",
+        "name": "제주반도체",
+        "close": 118700,
+        "change_rate": 0.76,
+        "trading_value": 666757724850
+      },
+      {
+        "ticker": "440110",
+        "name": "파두",
+        "close": 128300,
+        "change_rate": 9.94,
+        "trading_value": 293158281650
+      },
+      {
+        "ticker": "017900",
+        "name": "광전자",
+        "close": 13130,
+        "change_rate": -4.16,
+        "trading_value": 164227311795
+      },
+      {
+        "ticker": "456010",
+        "name": "아이씨티케이",
+        "close": 26550,
+        "change_rate": 10.86,
+        "trading_value": 130309167475
+      }
+    ],
+    "streak": 1
+  },
+  {
+    "ticker": "001820",
+    "name": "삼화콘덴서공업",
+    "market": "KOSPI",
+    "close": 102000,
+    "change_rate": 29.94,
+    "direction": "양봉",
+    "trading_value": 247297413900,
+    "volume_surge": 5.4,
+    "sector": "전자부품 제조업",
+    "week52_low": 23700.0,
+    "week52_high": 102000.0,
+    "week52_pct": 100.0,
+    "related_stocks": [
+      {
+        "ticker": "009150",
+        "name": "삼성전기",
+        "close": 1340000,
+        "change_rate": 11.3,
+        "trading_value": 1771718155512
+      },
+      {
+        "ticker": "011070",
+        "name": "LG이노텍",
+        "close": 864000,
+        "change_rate": 3.1,
+        "trading_value": 224717411000
+      },
+      {
+        "ticker": "034220",
+        "name": "LG디스플레이",
+        "close": 15150,
+        "change_rate": 2.78,
+        "trading_value": 185727664760
+      },
+      {
+        "ticker": "078600",
+        "name": "대주전자재료",
+        "close": 156800,
+        "change_rate": 18.34,
+        "trading_value": 125643213600
+      },
+      {
+        "ticker": "007660",
+        "name": "이수페타시스",
+        "close": 126100,
+        "change_rate": -1.33,
+        "trading_value": 116410524100
+      }
+    ],
+    "streak": 1
+  },
+  {
+    "ticker": "036930",
+    "name": "주성엔지니어링",
+    "market": "KOSDAQ",
+    "close": 224000,
+    "change_rate": 20.95,
+    "direction": "양봉",
+    "trading_value": 1401187818250,
+    "volume_surge": 3.4,
+    "sector": "특수 목적용 기계 제조업",
+    "week52_low": 26050.0,
+    "week52_high": 231500.0,
+    "week52_pct": 96.3,
+    "related_stocks": [
+      {
+        "ticker": "042700",
+        "name": "한미반도체",
+        "close": 320500,
+        "change_rate": -3.61,
+        "trading_value": 230319779500
+      },
+      {
+        "ticker": "098460",
+        "name": "고영",
+        "close": 39400,
+        "change_rate": 5.07,
+        "trading_value": 104020728325
+      },
+      {
+        "ticker": "454910",
+        "name": "두산로보틱스",
+        "close": 106600,
+        "change_rate": -0.93,
+        "trading_value": 99542184800
+      },
+      {
+        "ticker": "403870",
+        "name": "HPSP",
+        "close": 54700,
+        "change_rate": 2.43,
+        "trading_value": 92449433850
+      },
+      {
+        "ticker": "277810",
+        "name": "레인보우로보틱스",
+        "close": 754000,
+        "change_rate": 1.48,
+        "trading_value": 82396896500
+      }
+    ],
+    "streak": 1
+  },
+  {
+    "ticker": "069540",
+    "name": "빛과전자",
+    "market": "KOSDAQ",
+    "close": 6610,
+    "change_rate": 29.86,
+    "direction": "양봉",
+    "trading_value": 254720877625,
+    "volume_surge": 3.2,
+    "sector": "통신 및 방송 장비 제조업",
+    "week52_low": 0.0,
+    "week52_high": 8100.0,
+    "week52_pct": 81.6,
+    "related_stocks": [
+      {
+        "ticker": "005930",
+        "name": "삼성전자",
+        "close": 292500,
+        "change_rate": -2.34,
+        "trading_value": 5415999876319
+      },
+      {
+        "ticker": "066570",
+        "name": "LG전자",
+        "close": 237000,
+        "change_rate": 0.85,
+        "trading_value": 981163623250
+      },
+      {
+        "ticker": "050890",
+        "name": "쏠리드",
+        "close": 18130,
+        "change_rate": 15.18,
+        "trading_value": 287336627365
+      },
+      {
+        "ticker": "062970",
+        "name": "한국첨단소재",
+        "close": 3160,
+        "change_rate": 21.54,
+        "trading_value": 78356516981
+      },
+      {
+        "ticker": "032500",
+        "name": "케이엠더블유",
+        "close": 36400,
+        "change_rate": 14.11,
+        "trading_value": 59095462275
+      }
+    ],
+    "streak": 1
+  }
+]
