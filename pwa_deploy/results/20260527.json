@@ -1,0 +1,158 @@
+[
+  {
+    "ticker": "347850",
+    "name": "디앤디파마텍",
+    "market": "KOSDAQ",
+    "close": 98800,
+    "change_rate": 30.0,
+    "direction": "양봉",
+    "trading_value": 325601986800,
+    "volume_surge": 10.0,
+    "sector": "자연과학 및 공학 연구개발업",
+    "week52_low": 18994.0,
+    "week52_high": 113700.0,
+    "week52_pct": 60.2,
+    "related_stocks": [
+      {
+        "ticker": "196170",
+        "name": "알테오젠",
+        "close": 386500,
+        "change_rate": 5.75,
+        "trading_value": 363264035500
+      },
+      {
+        "ticker": "226950",
+        "name": "올릭스",
+        "close": 177200,
+        "change_rate": 7.0,
+        "trading_value": 116685838400
+      },
+      {
+        "ticker": "141080",
+        "name": "리가켐바이오",
+        "close": 162800,
+        "change_rate": 4.29,
+        "trading_value": 105627840300
+      },
+      {
+        "ticker": "261780",
+        "name": "차백신연구소",
+        "close": 3960,
+        "change_rate": 22.79,
+        "trading_value": 80812164964
+      },
+      {
+        "ticker": "476830",
+        "name": "알지노믹스",
+        "close": 141700,
+        "change_rate": -2.88,
+        "trading_value": 62446782300
+      }
+    ],
+    "streak": 1
+  },
+  {
+    "ticker": "018260",
+    "name": "삼성에스디에스",
+    "market": "KOSPI",
+    "close": 261500,
+    "change_rate": 29.78,
+    "direction": "양봉",
+    "trading_value": 749815104250,
+    "volume_surge": 7.9,
+    "sector": "컴퓨터 프로그래밍, 시스템 통합 및 관리업",
+    "week52_low": 127100.0,
+    "week52_high": 212000.0,
+    "week52_pct": 87.6,
+    "related_stocks": [
+      {
+        "ticker": "064400",
+        "name": "LG씨엔에스",
+        "close": 94600,
+        "change_rate": 14.11,
+        "trading_value": 442408891650
+      },
+      {
+        "ticker": "115500",
+        "name": "케이씨에스",
+        "close": 19690,
+        "change_rate": -4.42,
+        "trading_value": 124965254130
+      },
+      {
+        "ticker": "012030",
+        "name": "DB",
+        "close": 2350,
+        "change_rate": -2.08,
+        "trading_value": 9978946344
+      },
+      {
+        "ticker": "124500",
+        "name": "아이티센글로벌",
+        "close": 47800,
+        "change_rate": -3.73,
+        "trading_value": 9962218650
+      },
+      {
+        "ticker": "020180",
+        "name": "대신정보통신",
+        "close": 1286,
+        "change_rate": 3.63,
+        "trading_value": 8973672208
+      }
+    ],
+    "streak": 1
+  },
+  {
+    "ticker": "456010",
+    "name": "아이씨티케이",
+    "market": "KOSDAQ",
+    "close": 36350,
+    "change_rate": 18.02,
+    "direction": "양봉",
+    "trading_value": 264214131200,
+    "volume_surge": 6.7,
+    "sector": "반도체 제조업",
+    "week52_low": 10460.0,
+    "week52_high": 32600.0,
+    "week52_pct": 91.9,
+    "related_stocks": [
+      {
+        "ticker": "000660",
+        "name": "SK하이닉스",
+        "close": 2243000,
+        "change_rate": 9.31,
+        "trading_value": 17164205410523
+      },
+      {
+        "ticker": "080220",
+        "name": "제주반도체",
+        "close": 105100,
+        "change_rate": -11.61,
+        "trading_value": 411939936050
+      },
+      {
+        "ticker": "440110",
+        "name": "파두",
+        "close": 116900,
+        "change_rate": 0.09,
+        "trading_value": 298255629900
+      },
+      {
+        "ticker": "000990",
+        "name": "DB하이텍",
+        "close": 202000,
+        "change_rate": -8.39,
+        "trading_value": 236748040500
+      },
+      {
+        "ticker": "036540",
+        "name": "SFA반도체",
+        "close": 9400,
+        "change_rate": -14.62,
+        "trading_value": 164930103405
+      }
+    ],
+    "streak": 1
+  }
+]
