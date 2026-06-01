@@ -1,0 +1,190 @@
+[
+  {
+    "ticker": "022100",
+    "name": "포스코DX",
+    "market": "KOSPI",
+    "close": 38700,
+    "change_rate": 19.26,
+    "direction": "양봉",
+    "trading_value": 312063463400,
+    "volume_surge": 14.4,
+    "sector": "건축기술, 엔지니어링 및 관련 기술 서비스업",
+    "week52_low": 20000.0,
+    "week52_high": 45600.0,
+    "week52_pct": 48.6,
+    "related_stocks": [
+      {
+        "ticker": "028050",
+        "name": "삼성E&A",
+        "close": 50300,
+        "change_rate": -4.91,
+        "trading_value": 92580780700
+      },
+      {
+        "ticker": "443060",
+        "name": "HD현대마린솔루션",
+        "close": 233000,
+        "change_rate": 4.02,
+        "trading_value": 75824570500
+      },
+      {
+        "ticker": "490470",
+        "name": "세미파이브",
+        "close": 38650,
+        "change_rate": 0.39,
+        "trading_value": 48834471925
+      },
+      {
+        "ticker": "052690",
+        "name": "한전기술",
+        "close": 134400,
+        "change_rate": 0.07,
+        "trading_value": 26654581100
+      },
+      {
+        "ticker": "053690",
+        "name": "한미글로벌",
+        "close": 19300,
+        "change_rate": -6.99,
+        "trading_value": 5803078340
+      }
+    ],
+    "streak": 1
+  },
+  {
+    "ticker": "066575",
+    "name": "LG전자우",
+    "market": "KOSPI",
+    "close": 124400,
+    "change_rate": 29.99,
+    "direction": "양봉",
+    "trading_value": 356887479750,
+    "volume_surge": 7.0,
+    "sector": "기타",
+    "week52_low": 34100.0,
+    "week52_high": 98800.0,
+    "week52_pct": 95.2,
+    "related_stocks": [],
+    "streak": 1
+  },
+  {
+    "ticker": "018260",
+    "name": "삼성에스디에스",
+    "market": "KOSPI",
+    "close": 362000,
+    "change_rate": 21.07,
+    "direction": "양봉",
+    "trading_value": 1073330011500,
+    "volume_surge": 5.3,
+    "sector": "컴퓨터 프로그래밍, 시스템 통합 및 관리업",
+    "week52_low": 127100.0,
+    "week52_high": 321500.0,
+    "week52_pct": 88.4,
+    "related_stocks": [
+      {
+        "ticker": "064400",
+        "name": "LG씨엔에스",
+        "close": 143700,
+        "change_rate": 26.27,
+        "trading_value": 1584157802650
+      },
+      {
+        "ticker": "035510",
+        "name": "신세계I&C",
+        "close": 17880,
+        "change_rate": 5.74,
+        "trading_value": 14561213420
+      },
+      {
+        "ticker": "040350",
+        "name": "크레오에스지",
+        "close": 6130,
+        "change_rate": 29.87,
+        "trading_value": 10918506820
+      },
+      {
+        "ticker": "124500",
+        "name": "아이티센글로벌",
+        "close": 43950,
+        "change_rate": 0.23,
+        "trading_value": 9953248100
+      },
+      {
+        "ticker": "286940",
+        "name": "롯데이노베이트",
+        "close": 23550,
+        "change_rate": 4.9,
+        "trading_value": 7979253400
+      }
+    ],
+    "streak": 1
+  },
+  {
+    "ticker": "108490",
+    "name": "로보티즈",
+    "market": "KOSDAQ",
+    "close": 402500,
+    "change_rate": 23.66,
+    "direction": "양봉",
+    "trading_value": 549630450000,
+    "volume_surge": 4.5,
+    "sector": "특수 목적용 기계 제조업",
+    "week52_low": 49372.0,
+    "week52_high": 394000.0,
+    "week52_pct": 80.1,
+    "related_stocks": [
+      {
+        "ticker": "036930",
+        "name": "주성엔지니어링",
+        "close": 185500,
+        "change_rate": -7.25,
+        "trading_value": 484290319950
+      },
+      {
+        "ticker": "454910",
+        "name": "두산로보틱스",
+        "close": 138400,
+        "change_rate": 29.95,
+        "trading_value": 472665408600
+      },
+      {
+        "ticker": "042700",
+        "name": "한미반도체",
+        "close": 293000,
+        "change_rate": 3.9,
+        "trading_value": 357695351500
+      },
+      {
+        "ticker": "277810",
+        "name": "레인보우로보틱스",
+        "close": 789000,
+        "change_rate": 12.39,
+        "trading_value": 351787955500
+      },
+      {
+        "ticker": "090710",
+        "name": "휴림로봇",
+        "close": 11170,
+        "change_rate": 6.99,
+        "trading_value": 167860686540
+      }
+    ],
+    "streak": 1
+  },
+  {
+    "ticker": "005935",
+    "name": "삼성전자우",
+    "market": "KOSPI",
+    "close": 229000,
+    "change_rate": 13.09,
+    "direction": "양봉",
+    "trading_value": 3337824316902,
+    "volume_surge": 3.0,
+    "sector": "기타",
+    "week52_low": 44200.0,
+    "week52_high": 207500.0,
+    "week52_pct": 96.9,
+    "related_stocks": [],
+    "streak": 1
+  }
+]
