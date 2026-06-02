@@ -1,0 +1,106 @@
+[
+  {
+    "ticker": "043260",
+    "name": "성호전자",
+    "market": "KOSDAQ",
+    "close": 47500,
+    "change_rate": 20.41,
+    "direction": "양봉",
+    "trading_value": 666089055425,
+    "volume_surge": 6.7,
+    "sector": "전자부품 제조업",
+    "week52_low": 1021.0,
+    "week52_high": 59600.0,
+    "week52_pct": 65.6,
+    "related_stocks": [
+      {
+        "ticker": "009150",
+        "name": "삼성전기",
+        "close": 1813000,
+        "change_rate": -9.58,
+        "trading_value": 3483214925500
+      },
+      {
+        "ticker": "011070",
+        "name": "LG이노텍",
+        "close": 1252000,
+        "change_rate": -18.17,
+        "trading_value": 1365537066000
+      },
+      {
+        "ticker": "034220",
+        "name": "LG디스플레이",
+        "close": 16690,
+        "change_rate": 5.63,
+        "trading_value": 1038018714005
+      },
+      {
+        "ticker": "000150",
+        "name": "두산",
+        "close": 1918000,
+        "change_rate": -12.94,
+        "trading_value": 358011134000
+      },
+      {
+        "ticker": "353200",
+        "name": "대덕전자",
+        "close": 157500,
+        "change_rate": -11.42,
+        "trading_value": 266607303450
+      }
+    ],
+    "streak": 1
+  },
+  {
+    "ticker": "036570",
+    "name": "NC",
+    "market": "KOSPI",
+    "close": 338000,
+    "change_rate": 14.38,
+    "direction": "양봉",
+    "trading_value": 267412460250,
+    "volume_surge": 6.3,
+    "sector": "소프트웨어 개발 및 공급업",
+    "week52_low": 148200.0,
+    "week52_high": 302500.0,
+    "week52_pct": 95.5,
+    "related_stocks": [
+      {
+        "ticker": "307950",
+        "name": "현대오토에버",
+        "close": 898000,
+        "change_rate": -4.26,
+        "trading_value": 265469742500
+      },
+      {
+        "ticker": "242040",
+        "name": "나무기술",
+        "close": 7100,
+        "change_rate": 7.41,
+        "trading_value": 90470911925
+      },
+      {
+        "ticker": "347700",
+        "name": "스피어",
+        "close": 32500,
+        "change_rate": -2.84,
+        "trading_value": 59578329400
+      },
+      {
+        "ticker": "357880",
+        "name": "SKAI",
+        "close": 5790,
+        "change_rate": 8.22,
+        "trading_value": 50746724147
+      },
+      {
+        "ticker": "259960",
+        "name": "크래프톤",
+        "close": 252000,
+        "change_rate": 1.0,
+        "trading_value": 45832595000
+      }
+    ],
+    "streak": 1
+  }
+]
