@@ -1,0 +1,106 @@
+[
+  {
+    "ticker": "089030",
+    "name": "테크윙",
+    "market": "KOSDAQ",
+    "close": 59700,
+    "change_rate": 20.97,
+    "direction": "양봉",
+    "trading_value": 603917953450,
+    "volume_surge": 9.9,
+    "sector": "특수 목적용 기계 제조업",
+    "week52_low": 26050.0,
+    "week52_high": 74000.0,
+    "week52_pct": 48.6,
+    "related_stocks": [
+      {
+        "ticker": "036930",
+        "name": "주성엔지니어링",
+        "close": 191700,
+        "change_rate": 4.87,
+        "trading_value": 414576223300
+      },
+      {
+        "ticker": "454910",
+        "name": "두산로보틱스",
+        "close": 116600,
+        "change_rate": -8.33,
+        "trading_value": 260678266750
+      },
+      {
+        "ticker": "098460",
+        "name": "고영",
+        "close": 33450,
+        "change_rate": 20.32,
+        "trading_value": 234973653425
+      },
+      {
+        "ticker": "042700",
+        "name": "한미반도체",
+        "close": 276500,
+        "change_rate": 9.07,
+        "trading_value": 230959546000
+      },
+      {
+        "ticker": "240810",
+        "name": "원익IPS",
+        "close": 119100,
+        "change_rate": 13.54,
+        "trading_value": 176210684800
+      }
+    ],
+    "streak": 1
+  },
+  {
+    "ticker": "403870",
+    "name": "HPSP",
+    "market": "KOSDAQ",
+    "close": 57000,
+    "change_rate": 20.89,
+    "direction": "양봉",
+    "trading_value": 621636128725,
+    "volume_surge": 3.7,
+    "sector": "특수 목적용 기계 제조업",
+    "week52_low": 21200.0,
+    "week52_high": 67800.0,
+    "week52_pct": 55.7,
+    "related_stocks": [
+      {
+        "ticker": "036930",
+        "name": "주성엔지니어링",
+        "close": 191700,
+        "change_rate": 4.87,
+        "trading_value": 414576223300
+      },
+      {
+        "ticker": "454910",
+        "name": "두산로보틱스",
+        "close": 116600,
+        "change_rate": -8.33,
+        "trading_value": 260678266750
+      },
+      {
+        "ticker": "098460",
+        "name": "고영",
+        "close": 33450,
+        "change_rate": 20.32,
+        "trading_value": 234973653425
+      },
+      {
+        "ticker": "042700",
+        "name": "한미반도체",
+        "close": 276500,
+        "change_rate": 9.07,
+        "trading_value": 230959546000
+      },
+      {
+        "ticker": "240810",
+        "name": "원익IPS",
+        "close": 119100,
+        "change_rate": 13.54,
+        "trading_value": 176210684800
+      }
+    ],
+    "streak": 1
+  }
+]
