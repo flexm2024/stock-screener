@@ -1,0 +1,18 @@
+[
+  {
+    "ticker": "093370",
+    "name": "후성",
+    "market": "KOSPI",
+    "close": 16240,
+    "change_rate": 20.12,
+    "direction": "양봉",
+    "trading_value": 514269188440,
+    "volume_surge": 18.4,
+    "sector": "기타",
+    "week52_low": 3955.0,
+    "week52_high": 15420.0,
+    "week52_pct": 83.4,
+    "related_stocks": [],
+    "streak": 1
+  }
+]
