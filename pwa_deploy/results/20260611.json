@@ -1,0 +1,54 @@
+[
+  {
+    "ticker": "240810",
+    "name": "원익IPS",
+    "market": "KOSDAQ",
+    "close": 141000,
+    "change_rate": 20.82,
+    "direction": "양봉",
+    "trading_value": 479531533550,
+    "volume_surge": 4.2,
+    "sector": "특수 목적용 기계 제조업",
+    "week52_low": 21350.0,
+    "week52_high": 151500.0,
+    "week52_pct": 73.3,
+    "related_stocks": [
+      {
+        "ticker": "036930",
+        "name": "주성엔지니어링",
+        "close": 245500,
+        "change_rate": 23.37,
+        "trading_value": 1690604457050
+      },
+      {
+        "ticker": "403870",
+        "name": "HPSP",
+        "close": 55000,
+        "change_rate": 3.58,
+        "trading_value": 458640406650
+      },
+      {
+        "ticker": "042700",
+        "name": "한미반도체",
+        "close": 291000,
+        "change_rate": 7.78,
+        "trading_value": 389447773500
+      },
+      {
+        "ticker": "089030",
+        "name": "테크윙",
+        "close": 61100,
+        "change_rate": 6.08,
+        "trading_value": 286477387850
+      },
+      {
+        "ticker": "267270",
+        "name": "HD건설기계",
+        "close": 143100,
+        "change_rate": -0.76,
+        "trading_value": 172149789700
+      }
+    ],
+    "streak": 1
+  }
+]
