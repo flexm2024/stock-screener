@@ -1,0 +1,366 @@
+[
+  {
+    "ticker": "357780",
+    "name": "솔브레인",
+    "market": "KOSDAQ",
+    "close": 441500,
+    "change_rate": 24.37,
+    "direction": "양봉",
+    "trading_value": 205348745250,
+    "volume_surge": 7.2,
+    "sector": "기타 화학제품 제조업",
+    "week52_low": 158800.0,
+    "week52_high": 530000.0,
+    "week52_pct": 52.9,
+    "related_stocks": [
+      {
+        "ticker": "011790",
+        "name": "SKC",
+        "close": 140300,
+        "change_rate": 0.21,
+        "trading_value": 100840399400
+      },
+      {
+        "ticker": "278470",
+        "name": "에이피알",
+        "close": 394000,
+        "change_rate": -4.02,
+        "trading_value": 88989319250
+      },
+      {
+        "ticker": "483650",
+        "name": "달바글로벌",
+        "close": 193700,
+        "change_rate": -8.2,
+        "trading_value": 57169952450
+      },
+      {
+        "ticker": "090430",
+        "name": "아모레퍼시픽",
+        "close": 112000,
+        "change_rate": 0.18,
+        "trading_value": 24352503700
+      },
+      {
+        "ticker": "051900",
+        "name": "LG생활건강",
+        "close": 242000,
+        "change_rate": 1.47,
+        "trading_value": 23513602250
+      }
+    ],
+    "streak": 1
+  },
+  {
+    "ticker": "095340",
+    "name": "ISC",
+    "market": "KOSDAQ",
+    "close": 230000,
+    "change_rate": 20.73,
+    "direction": "양봉",
+    "trading_value": 331901644500,
+    "volume_surge": 6.3,
+    "sector": "기계장비 및 관련 물품 도매업",
+    "week52_low": 49750.0,
+    "week52_high": 292500.0,
+    "week52_pct": 58.0,
+    "related_stocks": [
+      {
+        "ticker": "031330",
+        "name": "에스에이엠티",
+        "close": 14960,
+        "change_rate": -0.86,
+        "trading_value": 23516209980
+      },
+      {
+        "ticker": "032940",
+        "name": "원익",
+        "close": 8430,
+        "change_rate": 17.08,
+        "trading_value": 14255311580
+      },
+      {
+        "ticker": "077500",
+        "name": "유니퀘스트",
+        "close": 7990,
+        "change_rate": 11.44,
+        "trading_value": 5209189585
+      },
+      {
+        "ticker": "052020",
+        "name": "에스티큐브",
+        "close": 11000,
+        "change_rate": -2.31,
+        "trading_value": 3253220800
+      },
+      {
+        "ticker": "032190",
+        "name": "다우데이타",
+        "close": 19600,
+        "change_rate": 5.15,
+        "trading_value": 2639987585
+      }
+    ],
+    "streak": 1
+  },
+  {
+    "ticker": "039030",
+    "name": "이오테크닉스",
+    "market": "KOSDAQ",
+    "close": 612000,
+    "change_rate": 21.43,
+    "direction": "양봉",
+    "trading_value": 460452514000,
+    "volume_surge": 5.8,
+    "sector": "특수 목적용 기계 제조업",
+    "week52_low": 142800.0,
+    "week52_high": 598000.0,
+    "week52_pct": 79.3,
+    "related_stocks": [
+      {
+        "ticker": "036930",
+        "name": "주성엔지니어링",
+        "close": 231000,
+        "change_rate": -5.91,
+        "trading_value": 1497479588750
+      },
+      {
+        "ticker": "089030",
+        "name": "테크윙",
+        "close": 65300,
+        "change_rate": 6.87,
+        "trading_value": 575261128700
+      },
+      {
+        "ticker": "098460",
+        "name": "고영",
+        "close": 39150,
+        "change_rate": 14.47,
+        "trading_value": 457973562100
+      },
+      {
+        "ticker": "108490",
+        "name": "로보티즈",
+        "close": 330000,
+        "change_rate": 15.18,
+        "trading_value": 272362886000
+      },
+      {
+        "ticker": "319660",
+        "name": "피에스케이",
+        "close": 169900,
+        "change_rate": 13.42,
+        "trading_value": 265245772450
+      }
+    ],
+    "streak": 1
+  },
+  {
+    "ticker": "093370",
+    "name": "후성",
+    "market": "KOSPI",
+    "close": 19010,
+    "change_rate": 20.55,
+    "direction": "양봉",
+    "trading_value": 337259650285,
+    "volume_surge": 5.5,
+    "sector": "기초 화학물질 제조업",
+    "week52_low": 4160.0,
+    "week52_high": 16990.0,
+    "week52_pct": 90.5,
+    "related_stocks": [
+      {
+        "ticker": "005290",
+        "name": "동진쎄미켐",
+        "close": 59000,
+        "change_rate": 6.5,
+        "trading_value": 129936708850
+      },
+      {
+        "ticker": "051910",
+        "name": "LG화학",
+        "close": 345000,
+        "change_rate": 9.0,
+        "trading_value": 126815619000
+      },
+      {
+        "ticker": "030530",
+        "name": "원익홀딩스",
+        "close": 31000,
+        "change_rate": 8.58,
+        "trading_value": 117299846625
+      },
+      {
+        "ticker": "009830",
+        "name": "한화솔루션",
+        "close": 37000,
+        "change_rate": 0.14,
+        "trading_value": 80955558775
+      },
+      {
+        "ticker": "005950",
+        "name": "이수화학",
+        "close": 16700,
+        "change_rate": 9.72,
+        "trading_value": 53557023660
+      }
+    ],
+    "streak": 1
+  },
+  {
+    "ticker": "240810",
+    "name": "원익IPS",
+    "market": "KOSDAQ",
+    "close": 183300,
+    "change_rate": 30.0,
+    "direction": "양봉",
+    "trading_value": 690950052000,
+    "volume_surge": 5.3,
+    "sector": "특수 목적용 기계 제조업",
+    "week52_low": 22150.0,
+    "week52_high": 151500.0,
+    "week52_pct": 91.9,
+    "related_stocks": [
+      {
+        "ticker": "036930",
+        "name": "주성엔지니어링",
+        "close": 231000,
+        "change_rate": -5.91,
+        "trading_value": 1497479588750
+      },
+      {
+        "ticker": "089030",
+        "name": "테크윙",
+        "close": 65300,
+        "change_rate": 6.87,
+        "trading_value": 575261128700
+      },
+      {
+        "ticker": "098460",
+        "name": "고영",
+        "close": 39150,
+        "change_rate": 14.47,
+        "trading_value": 457973562100
+      },
+      {
+        "ticker": "108490",
+        "name": "로보티즈",
+        "close": 330000,
+        "change_rate": 15.18,
+        "trading_value": 272362886000
+      },
+      {
+        "ticker": "319660",
+        "name": "피에스케이",
+        "close": 169900,
+        "change_rate": 13.42,
+        "trading_value": 265245772450
+      }
+    ],
+    "streak": 1
+  },
+  {
+    "ticker": "042700",
+    "name": "한미반도체",
+    "market": "KOSPI",
+    "close": 361000,
+    "change_rate": 24.05,
+    "direction": "양봉",
+    "trading_value": 2058770966250,
+    "volume_surge": 5.2,
+    "sector": "특수 목적용 기계 제조업",
+    "week52_low": 79800.0,
+    "week52_high": 426000.0,
+    "week52_pct": 61.0,
+    "related_stocks": [
+      {
+        "ticker": "036930",
+        "name": "주성엔지니어링",
+        "close": 231000,
+        "change_rate": -5.91,
+        "trading_value": 1497479588750
+      },
+      {
+        "ticker": "089030",
+        "name": "테크윙",
+        "close": 65300,
+        "change_rate": 6.87,
+        "trading_value": 575261128700
+      },
+      {
+        "ticker": "098460",
+        "name": "고영",
+        "close": 39150,
+        "change_rate": 14.47,
+        "trading_value": 457973562100
+      },
+      {
+        "ticker": "108490",
+        "name": "로보티즈",
+        "close": 330000,
+        "change_rate": 15.18,
+        "trading_value": 272362886000
+      },
+      {
+        "ticker": "319660",
+        "name": "피에스케이",
+        "close": 169900,
+        "change_rate": 13.42,
+        "trading_value": 265245772450
+      }
+    ],
+    "streak": 1
+  },
+  {
+    "ticker": "403870",
+    "name": "HPSP",
+    "market": "KOSDAQ",
+    "close": 71500,
+    "change_rate": 30.0,
+    "direction": "양봉",
+    "trading_value": 1129288698450,
+    "volume_surge": 5.1,
+    "sector": "특수 목적용 기계 제조업",
+    "week52_low": 21900.0,
+    "week52_high": 67800.0,
+    "week52_pct": 72.1,
+    "related_stocks": [
+      {
+        "ticker": "036930",
+        "name": "주성엔지니어링",
+        "close": 231000,
+        "change_rate": -5.91,
+        "trading_value": 1497479588750
+      },
+      {
+        "ticker": "089030",
+        "name": "테크윙",
+        "close": 65300,
+        "change_rate": 6.87,
+        "trading_value": 575261128700
+      },
+      {
+        "ticker": "098460",
+        "name": "고영",
+        "close": 39150,
+        "change_rate": 14.47,
+        "trading_value": 457973562100
+      },
+      {
+        "ticker": "108490",
+        "name": "로보티즈",
+        "close": 330000,
+        "change_rate": 15.18,
+        "trading_value": 272362886000
+      },
+      {
+        "ticker": "319660",
+        "name": "피에스케이",
+        "close": 169900,
+        "change_rate": 13.42,
+        "trading_value": 265245772450
+      }
+    ],
+    "streak": 1
+  }
+]
