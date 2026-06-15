@@ -1,0 +1,210 @@
+[
+  {
+    "ticker": "204320",
+    "name": "HL만도",
+    "market": "KOSPI",
+    "close": 70600,
+    "change_rate": 8.62,
+    "direction": "양봉",
+    "trading_value": 533117803900,
+    "volume_surge": 12.7,
+    "sector": "자동차 신품 부품 제조업",
+    "week52_low": 32100.0,
+    "week52_high": 75800.0,
+    "week52_pct": 75.3,
+    "related_stocks": [
+      {
+        "ticker": "012330",
+        "name": "현대모비스",
+        "close": 640000,
+        "change_rate": 5.44,
+        "trading_value": 328494915500
+      },
+      {
+        "ticker": "126640",
+        "name": "화신정공",
+        "close": 5260,
+        "change_rate": 7.46,
+        "trading_value": 74973817647
+      },
+      {
+        "ticker": "005850",
+        "name": "에스엘",
+        "close": 75900,
+        "change_rate": 12.11,
+        "trading_value": 31931636350
+      },
+      {
+        "ticker": "092200",
+        "name": "디아이씨",
+        "close": 8950,
+        "change_rate": -9.96,
+        "trading_value": 16877581875
+      },
+      {
+        "ticker": "011210",
+        "name": "현대위아",
+        "close": 82000,
+        "change_rate": 6.63,
+        "trading_value": 15909316000
+      }
+    ],
+    "streak": 1
+  },
+  {
+    "ticker": "003490",
+    "name": "대한항공",
+    "market": "KOSPI",
+    "close": 30000,
+    "change_rate": 12.78,
+    "direction": "양봉",
+    "trading_value": 358315542325,
+    "volume_surge": 6.4,
+    "sector": "항공 여객 운송업",
+    "week52_low": 21000.0,
+    "week52_high": 29750.0,
+    "week52_pct": 64.0,
+    "related_stocks": [
+      {
+        "ticker": "089590",
+        "name": "제주항공",
+        "close": 5150,
+        "change_rate": 18.66,
+        "trading_value": 39121797442
+      },
+      {
+        "ticker": "272450",
+        "name": "진에어",
+        "close": 6200,
+        "change_rate": 12.52,
+        "trading_value": 16791470140
+      },
+      {
+        "ticker": "091810",
+        "name": "트리니티항공",
+        "close": 894,
+        "change_rate": 13.31,
+        "trading_value": 12414292514
+      },
+      {
+        "ticker": "020560",
+        "name": "아시아나항공",
+        "close": 8050,
+        "change_rate": 13.86,
+        "trading_value": 11913679270
+      },
+      {
+        "ticker": "298690",
+        "name": "에어부산",
+        "close": 1863,
+        "change_rate": 13.11,
+        "trading_value": 4140769949
+      }
+    ],
+    "streak": 1
+  },
+  {
+    "ticker": "093370",
+    "name": "후성",
+    "market": "KOSPI",
+    "close": 22400,
+    "change_rate": 17.83,
+    "direction": "양봉",
+    "trading_value": 367304010595,
+    "volume_surge": 4.7,
+    "sector": "기초 화학물질 제조업",
+    "week52_low": 4160.0,
+    "week52_high": 20050.0,
+    "week52_pct": 93.5,
+    "related_stocks": [
+      {
+        "ticker": "051910",
+        "name": "LG화학",
+        "close": 360500,
+        "change_rate": 4.49,
+        "trading_value": 90984079250
+      },
+      {
+        "ticker": "009830",
+        "name": "한화솔루션",
+        "close": 38700,
+        "change_rate": 10.89,
+        "trading_value": 86331032475
+      },
+      {
+        "ticker": "005290",
+        "name": "동진쎄미켐",
+        "close": 60900,
+        "change_rate": 3.22,
+        "trading_value": 63755030600
+      },
+      {
+        "ticker": "298000",
+        "name": "효성화학",
+        "close": 55000,
+        "change_rate": -29.31,
+        "trading_value": 41020823350
+      },
+      {
+        "ticker": "457370",
+        "name": "한켐",
+        "close": 13670,
+        "change_rate": 12.98,
+        "trading_value": 34252463965
+      }
+    ],
+    "streak": 1
+  },
+  {
+    "ticker": "018880",
+    "name": "한온시스템",
+    "market": "KOSPI",
+    "close": 5680,
+    "change_rate": 20.85,
+    "direction": "양봉",
+    "trading_value": 456215556189,
+    "volume_surge": 3.4,
+    "sector": "일반 목적용 기계 제조업",
+    "week52_low": 2732.0,
+    "week52_high": 5940.0,
+    "week52_pct": 61.3,
+    "related_stocks": [
+      {
+        "ticker": "034020",
+        "name": "두산에너빌리티",
+        "close": 99800,
+        "change_rate": 7.2,
+        "trading_value": 251314312800
+      },
+      {
+        "ticker": "082740",
+        "name": "한화엔진",
+        "close": 59300,
+        "change_rate": 10.02,
+        "trading_value": 81664714450
+      },
+      {
+        "ticker": "083650",
+        "name": "비에이치아이",
+        "close": 67600,
+        "change_rate": -16.13,
+        "trading_value": 61171537500
+      },
+      {
+        "ticker": "319400",
+        "name": "현대무벡스",
+        "close": 37950,
+        "change_rate": -3.07,
+        "trading_value": 48568026400
+      },
+      {
+        "ticker": "017800",
+        "name": "현대엘리베이터",
+        "close": 83500,
+        "change_rate": 4.51,
+        "trading_value": 27133934650
+      }
+    ],
+    "streak": 1
+  }
+]
