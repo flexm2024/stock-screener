@@ -1,0 +1,54 @@
+[
+  {
+    "ticker": "347850",
+    "name": "디앤디파마텍",
+    "market": "KOSDAQ",
+    "close": 108100,
+    "change_rate": 18.01,
+    "direction": "양봉",
+    "trading_value": 577018904900,
+    "volume_surge": 3.6,
+    "sector": "자연과학 및 공학 연구개발업",
+    "week52_low": 18994.0,
+    "week52_high": 114700.0,
+    "week52_pct": 75.9,
+    "related_stocks": [
+      {
+        "ticker": "196170",
+        "name": "알테오젠",
+        "close": 373000,
+        "change_rate": 5.82,
+        "trading_value": 243215548750
+      },
+      {
+        "ticker": "226950",
+        "name": "올릭스",
+        "close": 142000,
+        "change_rate": 9.82,
+        "trading_value": 73961248100
+      },
+      {
+        "ticker": "141080",
+        "name": "리가켐바이오",
+        "close": 146100,
+        "change_rate": 4.58,
+        "trading_value": 55986305050
+      },
+      {
+        "ticker": "476830",
+        "name": "알지노믹스",
+        "close": 105100,
+        "change_rate": 3.55,
+        "trading_value": 44477906750
+      },
+      {
+        "ticker": "397030",
+        "name": "에이프릴바이오",
+        "close": 46500,
+        "change_rate": 6.9,
+        "trading_value": 20372875700
+      }
+    ],
+    "streak": 1
+  }
+]
