@@ -1,0 +1,106 @@
+[
+  {
+    "ticker": "122640",
+    "name": "예스티",
+    "market": "KOSDAQ",
+    "close": 39850,
+    "change_rate": 18.42,
+    "direction": "양봉",
+    "trading_value": 264186941350,
+    "volume_surge": 21.4,
+    "sector": "특수 목적용 기계 제조업",
+    "week52_low": 14440.0,
+    "week52_high": 34600.0,
+    "week52_pct": 95.3,
+    "related_stocks": [
+      {
+        "ticker": "403870",
+        "name": "HPSP",
+        "close": 59400,
+        "change_rate": -5.41,
+        "trading_value": 766222244150
+      },
+      {
+        "ticker": "036930",
+        "name": "주성엔지니어링",
+        "close": 212500,
+        "change_rate": -3.41,
+        "trading_value": 323929417750
+      },
+      {
+        "ticker": "240810",
+        "name": "원익IPS",
+        "close": 163200,
+        "change_rate": 0.93,
+        "trading_value": 257003225900
+      },
+      {
+        "ticker": "042700",
+        "name": "한미반도체",
+        "close": 315500,
+        "change_rate": -1.25,
+        "trading_value": 227802117000
+      },
+      {
+        "ticker": "319660",
+        "name": "피에스케이",
+        "close": 172000,
+        "change_rate": 5.91,
+        "trading_value": 120771115250
+      }
+    ],
+    "streak": 1
+  },
+  {
+    "ticker": "001820",
+    "name": "삼화콘덴서공업",
+    "market": "KOSPI",
+    "close": 190100,
+    "change_rate": 25.56,
+    "direction": "양봉",
+    "trading_value": 773371298850,
+    "volume_surge": 3.2,
+    "sector": "전자부품 제조업",
+    "week52_low": 24950.0,
+    "week52_high": 172800.0,
+    "week52_pct": 85.5,
+    "related_stocks": [
+      {
+        "ticker": "009150",
+        "name": "삼성전기",
+        "close": 2200000,
+        "change_rate": 8.27,
+        "trading_value": 3536717669000
+      },
+      {
+        "ticker": "011070",
+        "name": "LG이노텍",
+        "close": 1283000,
+        "change_rate": 2.8,
+        "trading_value": 936826170000
+      },
+      {
+        "ticker": "353200",
+        "name": "대덕전자",
+        "close": 167600,
+        "change_rate": -3.79,
+        "trading_value": 149900912150
+      },
+      {
+        "ticker": "000150",
+        "name": "두산",
+        "close": 1634000,
+        "change_rate": 0.62,
+        "trading_value": 138016453500
+      },
+      {
+        "ticker": "126730",
+        "name": "코칩",
+        "close": 25700,
+        "change_rate": 13.22,
+        "trading_value": 137189411650
+      }
+    ],
+    "streak": 1
+  }
+]
