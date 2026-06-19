@@ -1,0 +1,18 @@
+[
+  {
+    "ticker": "009155",
+    "name": "삼성전기우",
+    "market": "KOSPI",
+    "close": 809000,
+    "change_rate": 11.43,
+    "direction": "양봉",
+    "trading_value": 289661385500,
+    "volume_surge": 4.9,
+    "sector": "기타",
+    "week52_low": 57400.0,
+    "week52_high": 800000.0,
+    "week52_pct": 90.0,
+    "related_stocks": [],
+    "streak": 1
+  }
+]
