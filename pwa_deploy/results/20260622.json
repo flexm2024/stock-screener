@@ -1,0 +1,174 @@
+[
+  {
+    "ticker": "320000",
+    "name": "한울반도체",
+    "market": "KOSDAQ",
+    "close": 23150,
+    "change_rate": 29.91,
+    "direction": "양봉",
+    "trading_value": 205078802115,
+    "volume_surge": 43.5,
+    "sector": "특수 목적용 기계 제조업",
+    "week52_low": 7079.0,
+    "week52_high": 17820.0,
+    "week52_pct": 100.0,
+    "related_stocks": [
+      {
+        "ticker": "403870",
+        "name": "HPSP",
+        "close": 60000,
+        "change_rate": 6.01,
+        "trading_value": 471066615100
+      },
+      {
+        "ticker": "036930",
+        "name": "주성엔지니어링",
+        "close": 197900,
+        "change_rate": 2.49,
+        "trading_value": 414216222900
+      },
+      {
+        "ticker": "240810",
+        "name": "원익IPS",
+        "close": 172500,
+        "change_rate": 10.58,
+        "trading_value": 340698083250
+      },
+      {
+        "ticker": "042700",
+        "name": "한미반도체",
+        "close": 301500,
+        "change_rate": 2.2,
+        "trading_value": 264305959250
+      },
+      {
+        "ticker": "319660",
+        "name": "피에스케이",
+        "close": 180200,
+        "change_rate": 9.21,
+        "trading_value": 179840655150
+      }
+    ],
+    "streak": 1
+  },
+  {
+    "ticker": "009155",
+    "name": "삼성전기우",
+    "market": "KOSPI",
+    "close": 954000,
+    "change_rate": 17.92,
+    "direction": "양봉",
+    "trading_value": 469959184000,
+    "volume_surge": 6.5,
+    "sector": "기타",
+    "week52_low": 57400.0,
+    "week52_high": 845000.0,
+    "week52_pct": 95.4,
+    "related_stocks": [],
+    "streak": 1
+  },
+  {
+    "ticker": "067310",
+    "name": "하나마이크론",
+    "market": "KOSDAQ",
+    "close": 56800,
+    "change_rate": 15.92,
+    "direction": "양봉",
+    "trading_value": 399081032825,
+    "volume_surge": 3.7,
+    "sector": "반도체 제조업",
+    "week52_low": 10400.0,
+    "week52_high": 58500.0,
+    "week52_pct": 80.2,
+    "related_stocks": [
+      {
+        "ticker": "000660",
+        "name": "SK하이닉스",
+        "close": 2919000,
+        "change_rate": 5.61,
+        "trading_value": 14909424563700
+      },
+      {
+        "ticker": "440110",
+        "name": "파두",
+        "close": 115900,
+        "change_rate": 14.3,
+        "trading_value": 204414937900
+      },
+      {
+        "ticker": "000990",
+        "name": "DB하이텍",
+        "close": 174000,
+        "change_rate": 11.47,
+        "trading_value": 182653004400
+      },
+      {
+        "ticker": "322000",
+        "name": "HD현대에너지솔루션",
+        "close": 137000,
+        "change_rate": -2.14,
+        "trading_value": 16601005300
+      },
+      {
+        "ticker": "077360",
+        "name": "덕산하이메탈",
+        "close": 13490,
+        "change_rate": 7.15,
+        "trading_value": 15432494660
+      }
+    ],
+    "streak": 1
+  },
+  {
+    "ticker": "080220",
+    "name": "제주반도체",
+    "market": "KOSDAQ",
+    "close": 134000,
+    "change_rate": 17.24,
+    "direction": "양봉",
+    "trading_value": 1433793241150,
+    "volume_surge": 3.2,
+    "sector": "반도체 제조업",
+    "week52_low": 12900.0,
+    "week52_high": 137100.0,
+    "week52_pct": 81.6,
+    "related_stocks": [
+      {
+        "ticker": "000660",
+        "name": "SK하이닉스",
+        "close": 2919000,
+        "change_rate": 5.61,
+        "trading_value": 14909424563700
+      },
+      {
+        "ticker": "440110",
+        "name": "파두",
+        "close": 115900,
+        "change_rate": 14.3,
+        "trading_value": 204414937900
+      },
+      {
+        "ticker": "000990",
+        "name": "DB하이텍",
+        "close": 174000,
+        "change_rate": 11.47,
+        "trading_value": 182653004400
+      },
+      {
+        "ticker": "322000",
+        "name": "HD현대에너지솔루션",
+        "close": 137000,
+        "change_rate": -2.14,
+        "trading_value": 16601005300
+      },
+      {
+        "ticker": "077360",
+        "name": "덕산하이메탈",
+        "close": 13490,
+        "change_rate": 7.15,
+        "trading_value": 15432494660
+      }
+    ],
+    "streak": 1
+  }
+]
