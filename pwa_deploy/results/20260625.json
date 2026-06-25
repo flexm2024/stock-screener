@@ -1,0 +1,54 @@
+[
+  {
+    "ticker": "034730",
+    "name": "SK",
+    "market": "KOSPI",
+    "close": 858000,
+    "change_rate": 20.51,
+    "direction": "양봉",
+    "trading_value": 717799948000,
+    "volume_surge": 3.8,
+    "sector": "기타 금융업",
+    "week52_low": 176900.0,
+    "week52_high": 830000.0,
+    "week52_pct": 81.9,
+    "related_stocks": [
+      {
+        "ticker": "402340",
+        "name": "SK스퀘어",
+        "close": 1899000,
+        "change_rate": 5.56,
+        "trading_value": 2758074252500
+      },
+      {
+        "ticker": "105560",
+        "name": "KB금융",
+        "close": 151900,
+        "change_rate": 0.07,
+        "trading_value": 165115771150
+      },
+      {
+        "ticker": "086520",
+        "name": "에코프로",
+        "close": 102000,
+        "change_rate": -5.29,
+        "trading_value": 99914231700
+      },
+      {
+        "ticker": "055550",
+        "name": "신한지주",
+        "close": 94500,
+        "change_rate": -1.25,
+        "trading_value": 96690063950
+      },
+      {
+        "ticker": "086790",
+        "name": "하나금융지주",
+        "close": 114000,
+        "change_rate": -0.18,
+        "trading_value": 80306505700
+      }
+    ],
+    "streak": 1
+  }
+]
