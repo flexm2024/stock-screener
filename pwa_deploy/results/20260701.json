@@ -1,0 +1,158 @@
+[
+  {
+    "ticker": "006340",
+    "name": "대원전선",
+    "market": "KOSPI",
+    "close": 13400,
+    "change_rate": 29.97,
+    "direction": "양봉",
+    "trading_value": 399463573695,
+    "volume_surge": 4.2,
+    "sector": "절연선 및 케이블 제조업",
+    "week52_low": 2765.0,
+    "week52_high": 20300.0,
+    "week52_pct": 43.0,
+    "related_stocks": [
+      {
+        "ticker": "001440",
+        "name": "대한전선",
+        "close": 36800,
+        "change_rate": 8.55,
+        "trading_value": 280690794400
+      },
+      {
+        "ticker": "000500",
+        "name": "가온전선",
+        "close": 300500,
+        "change_rate": 28.69,
+        "trading_value": 164232866500
+      },
+      {
+        "ticker": "010170",
+        "name": "대한광통신",
+        "close": 13850,
+        "change_rate": 4.92,
+        "trading_value": 116133071845
+      },
+      {
+        "ticker": "103590",
+        "name": "일진전기",
+        "close": 83400,
+        "change_rate": 9.31,
+        "trading_value": 48234442050
+      },
+      {
+        "ticker": "475430",
+        "name": "키스트론",
+        "close": 6800,
+        "change_rate": 2.1,
+        "trading_value": 23625652935
+      }
+    ],
+    "streak": 1
+  },
+  {
+    "ticker": "475150",
+    "name": "SK이터닉스",
+    "market": "KOSPI",
+    "close": 59400,
+    "change_rate": 14.89,
+    "direction": "양봉",
+    "trading_value": 883327035200,
+    "volume_surge": 3.7,
+    "sector": "건물 건설업",
+    "week52_low": 17210.0,
+    "week52_high": 69300.0,
+    "week52_pct": 66.2,
+    "related_stocks": [
+      {
+        "ticker": "006360",
+        "name": "GS건설",
+        "close": 30100,
+        "change_rate": 19.92,
+        "trading_value": 192895719950
+      },
+      {
+        "ticker": "047040",
+        "name": "대우건설",
+        "close": 19420,
+        "change_rate": 3.08,
+        "trading_value": 181174542415
+      },
+      {
+        "ticker": "002990",
+        "name": "금호건설",
+        "close": 14540,
+        "change_rate": 29.94,
+        "trading_value": 61267226835
+      },
+      {
+        "ticker": "389260",
+        "name": "대명에너지",
+        "close": 16200,
+        "change_rate": 1.5,
+        "trading_value": 13956491150
+      },
+      {
+        "ticker": "042940",
+        "name": "상지건설",
+        "close": 8250,
+        "change_rate": 29.92,
+        "trading_value": 13350874190
+      }
+    ],
+    "streak": 1
+  },
+  {
+    "ticker": "007660",
+    "name": "이수페타시스",
+    "market": "KOSPI",
+    "close": 132900,
+    "change_rate": 15.16,
+    "direction": "양봉",
+    "trading_value": 494227307350,
+    "volume_surge": 3.5,
+    "sector": "전자부품 제조업",
+    "week52_low": 45000.0,
+    "week52_high": 164400.0,
+    "week52_pct": 59.0,
+    "related_stocks": [
+      {
+        "ticker": "009150",
+        "name": "삼성전기",
+        "close": 2205000,
+        "change_rate": 0.96,
+        "trading_value": 2190723644000
+      },
+      {
+        "ticker": "011070",
+        "name": "LG이노텍",
+        "close": 907000,
+        "change_rate": -7.54,
+        "trading_value": 258735043000
+      },
+      {
+        "ticker": "001820",
+        "name": "삼화콘덴서공업",
+        "close": 155500,
+        "change_rate": 2.98,
+        "trading_value": 252581130900
+      },
+      {
+        "ticker": "058470",
+        "name": "리노공업",
+        "close": 81700,
+        "change_rate": -2.74,
+        "trading_value": 237128790050
+      },
+      {
+        "ticker": "222800",
+        "name": "심텍",
+        "close": 157300,
+        "change_rate": 5.78,
+        "trading_value": 223582302400
+      }
+    ],
+    "streak": 1
+  }
+]
