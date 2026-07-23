@@ -1,0 +1,255 @@
+[
+  {
+    "ticker": "100090",
+    "name": "SK오션플랜트",
+    "market": "KOSPI",
+    "close": 17260,
+    "change_rate": 19.61,
+    "direction": "양봉",
+    "trading_value": 215186512720,
+    "volume_surge": 11.8,
+    "sector": "1차 철강 제조업",
+    "week52_low": 12500.0,
+    "week52_high": 31600.0,
+    "week52_pct": 10.1,
+    "related_stocks": [
+      {
+        "ticker": "005490",
+        "name": "POSCO홀딩스",
+        "close": 323500,
+        "change_rate": 6.77,
+        "trading_value": 103721965750
+      },
+      {
+        "ticker": "004020",
+        "name": "현대제철",
+        "close": 28150,
+        "change_rate": 9.11,
+        "trading_value": 20220500300
+      },
+      {
+        "ticker": "023790",
+        "name": "동일스틸럭스",
+        "close": 1968,
+        "change_rate": -0.51,
+        "trading_value": 10584046575
+      },
+      {
+        "ticker": "001430",
+        "name": "세아베스틸지주",
+        "close": 36650,
+        "change_rate": 12.94,
+        "trading_value": 5977037050
+      },
+      {
+        "ticker": "092790",
+        "name": "넥스틸",
+        "close": 11770,
+        "change_rate": 8.38,
+        "trading_value": 4283782835
+      }
+    ],
+    "streak": 1
+  },
+  {
+    "ticker": "475150",
+    "name": "SK이터닉스",
+    "market": "KOSPI",
+    "close": 80600,
+    "change_rate": 30.0,
+    "direction": "양봉",
+    "trading_value": 1359334936850,
+    "volume_surge": 4.4,
+    "sector": "건물 건설업",
+    "week52_low": 17210.0,
+    "week52_high": 69800.0,
+    "week52_pct": 85.2,
+    "related_stocks": [
+      {
+        "ticker": "002990",
+        "name": "금호건설",
+        "close": 11300,
+        "change_rate": 8.45,
+        "trading_value": 88956368095
+      },
+      {
+        "ticker": "047040",
+        "name": "대우건설",
+        "close": 16340,
+        "change_rate": 7.01,
+        "trading_value": 85602905785
+      },
+      {
+        "ticker": "389260",
+        "name": "대명에너지",
+        "close": 16580,
+        "change_rate": 15.06,
+        "trading_value": 41454335340
+      },
+      {
+        "ticker": "294870",
+        "name": "IPARK현대산업개발",
+        "close": 20750,
+        "change_rate": 6.9,
+        "trading_value": 5367845280
+      },
+      {
+        "ticker": "091590",
+        "name": "남화토건",
+        "close": 5440,
+        "change_rate": 0.0,
+        "trading_value": 1918175865
+      }
+    ],
+    "streak": 1
+  },
+  {
+    "ticker": "006360",
+    "name": "GS건설",
+    "market": "KOSPI",
+    "close": 34400,
+    "change_rate": 18.21,
+    "direction": "양봉",
+    "trading_value": 262637070025,
+    "volume_surge": 4.0,
+    "sector": "건물 건설업",
+    "week52_low": 17790.0,
+    "week52_high": 44850.0,
+    "week52_pct": 41.8,
+    "related_stocks": [
+      {
+        "ticker": "002990",
+        "name": "금호건설",
+        "close": 11300,
+        "change_rate": 8.45,
+        "trading_value": 88956368095
+      },
+      {
+        "ticker": "047040",
+        "name": "대우건설",
+        "close": 16340,
+        "change_rate": 7.01,
+        "trading_value": 85602905785
+      },
+      {
+        "ticker": "389260",
+        "name": "대명에너지",
+        "close": 16580,
+        "change_rate": 15.06,
+        "trading_value": 41454335340
+      },
+      {
+        "ticker": "294870",
+        "name": "IPARK현대산업개발",
+        "close": 20750,
+        "change_rate": 6.9,
+        "trading_value": 5367845280
+      },
+      {
+        "ticker": "091590",
+        "name": "남화토건",
+        "close": 5440,
+        "change_rate": 0.0,
+        "trading_value": 1918175865
+      }
+    ],
+    "streak": 1
+  },
+  {
+    "ticker": "028050",
+    "name": "삼성E&A",
+    "market": "KOSPI",
+    "close": 46650,
+    "change_rate": 12.95,
+    "direction": "양봉",
+    "trading_value": 328005715900,
+    "volume_surge": 3.4,
+    "sector": "건축기술, 엔지니어링 및 관련 기술 서비스업",
+    "week52_low": 23150.0,
+    "week52_high": 67300.0,
+    "week52_pct": 41.1,
+    "related_stocks": [
+      {
+        "ticker": "443060",
+        "name": "HD현대마린솔루션",
+        "close": 215000,
+        "change_rate": 7.23,
+        "trading_value": 17991261750
+      },
+      {
+        "ticker": "022100",
+        "name": "포스코DX",
+        "close": 20150,
+        "change_rate": 6.39,
+        "trading_value": 14287199550
+      },
+      {
+        "ticker": "053690",
+        "name": "한미글로벌",
+        "close": 19290,
+        "change_rate": 25.91,
+        "trading_value": 10385565165
+      },
+      {
+        "ticker": "052690",
+        "name": "한전기술",
+        "close": 96100,
+        "change_rate": 6.31,
+        "trading_value": 9069241800
+      },
+      {
+        "ticker": "490470",
+        "name": "세미파이브",
+        "close": 17970,
+        "change_rate": 4.36,
+        "trading_value": 3152011815
+      }
+    ],
+    "streak": 1
+  },
+  {
+    "ticker": "096770",
+    "name": "SK이노베이션",
+    "market": "KOSPI",
+    "close": 132200,
+    "change_rate": 11.66,
+    "direction": "양봉",
+    "trading_value": 215077831600,
+    "volume_surge": 3.1,
+    "sector": "석유 정제품 제조업",
+    "week52_low": 87700.0,
+    "week52_high": 155400.0,
+    "week52_pct": 45.3,
+    "related_stocks": [
+      {
+        "ticker": "010950",
+        "name": "S-Oil",
+        "close": 149800,
+        "change_rate": 5.72,
+        "trading_value": 65331894550
+      },
+      {
+        "ticker": "014530",
+        "name": "극동유화",
+        "close": 3245,
+        "change_rate": 1.72,
+        "trading_value": 3872215975
+      },
+      {
+        "ticker": "002960",
+        "name": "한국쉘석유",
+        "close": 504000,
+        "change_rate": 1.41,
+        "trading_value": 477519000
+      },
+      {
+        "ticker": "003650",
+        "name": "미창석유공업",
+        "close": 144500,
+        "change_rate": 1.9,
+        "trading_value": 447552500
+      }
+    ],
+    "streak": 1
+  }
+]
