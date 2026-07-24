@@ -1,0 +1,106 @@
+[
+  {
+    "ticker": "322000",
+    "name": "HD현대에너지솔루션",
+    "market": "KOSPI",
+    "close": 203000,
+    "change_rate": 18.37,
+    "direction": "양봉",
+    "trading_value": 390477856900,
+    "volume_surge": 11.0,
+    "sector": "반도체 제조업",
+    "week52_low": 41300.0,
+    "week52_high": 256000.0,
+    "week52_pct": 60.6,
+    "related_stocks": [
+      {
+        "ticker": "000660",
+        "name": "SK하이닉스",
+        "close": 1774000,
+        "change_rate": -7.56,
+        "trading_value": 6174521628000
+      },
+      {
+        "ticker": "080220",
+        "name": "제주반도체",
+        "close": 71200,
+        "change_rate": -11.99,
+        "trading_value": 79748549950
+      },
+      {
+        "ticker": "067310",
+        "name": "하나마이크론",
+        "close": 33200,
+        "change_rate": -8.16,
+        "trading_value": 30007722725
+      },
+      {
+        "ticker": "440110",
+        "name": "파두",
+        "close": 64900,
+        "change_rate": -11.94,
+        "trading_value": 28653629700
+      },
+      {
+        "ticker": "000990",
+        "name": "DB하이텍",
+        "close": 100600,
+        "change_rate": -8.63,
+        "trading_value": 20845499650
+      }
+    ],
+    "streak": 1
+  },
+  {
+    "ticker": "207940",
+    "name": "삼성바이오로직스",
+    "market": "KOSPI",
+    "close": 1528000,
+    "change_rate": 10.8,
+    "direction": "양봉",
+    "trading_value": 241846088500,
+    "volume_surge": 3.4,
+    "sector": "기초 의약물질 제조업",
+    "week52_low": 1228000.0,
+    "week52_high": 1987000.0,
+    "week52_pct": 19.9,
+    "related_stocks": [
+      {
+        "ticker": "950160",
+        "name": "코오롱티슈진",
+        "close": 14750,
+        "change_rate": -29.93,
+        "trading_value": 373053095215
+      },
+      {
+        "ticker": "068270",
+        "name": "셀트리온",
+        "close": 177700,
+        "change_rate": 3.19,
+        "trading_value": 108656110350
+      },
+      {
+        "ticker": "298380",
+        "name": "에이비엘바이오",
+        "close": 73200,
+        "change_rate": -1.48,
+        "trading_value": 14041950250
+      },
+      {
+        "ticker": "087010",
+        "name": "펩트론",
+        "close": 106000,
+        "change_rate": -2.57,
+        "trading_value": 10945972000
+      },
+      {
+        "ticker": "102940",
+        "name": "코오롱생명과학",
+        "close": 17180,
+        "change_rate": -9.0,
+        "trading_value": 6775449930
+      }
+    ],
+    "streak": 1
+  }
+]
