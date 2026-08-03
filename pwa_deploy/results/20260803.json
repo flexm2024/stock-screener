@@ -1,0 +1,54 @@
+[
+  {
+    "ticker": "439960",
+    "name": "코스모로보틱스",
+    "market": "KOSDAQ",
+    "close": 17880,
+    "change_rate": 21.3,
+    "direction": "양봉",
+    "trading_value": 322090191470,
+    "volume_surge": 7.6,
+    "sector": "의료용 기기 제조업",
+    "week52_low": 10000.0,
+    "week52_high": 68500.0,
+    "week52_pct": 8.1,
+    "related_stocks": [
+      {
+        "ticker": "491000",
+        "name": "리브스메드",
+        "close": 41400,
+        "change_rate": 10.55,
+        "trading_value": 12308621075
+      },
+      {
+        "ticker": "214150",
+        "name": "클래시스",
+        "close": 42550,
+        "change_rate": 3.4,
+        "trading_value": 9441101500
+      },
+      {
+        "ticker": "387690",
+        "name": "레메디",
+        "close": 8020,
+        "change_rate": -3.02,
+        "trading_value": 5883048560
+      },
+      {
+        "ticker": "228670",
+        "name": "레이",
+        "close": 6250,
+        "change_rate": 24.75,
+        "trading_value": 5050379585
+      },
+      {
+        "ticker": "458870",
+        "name": "씨어스",
+        "close": 24300,
+        "change_rate": 2.32,
+        "trading_value": 3786246200
+      }
+    ],
+    "streak": 1
+  }
+]
