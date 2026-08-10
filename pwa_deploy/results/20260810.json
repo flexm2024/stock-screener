@@ -1,0 +1,54 @@
+[
+  {
+    "ticker": "010170",
+    "name": "대한광통신",
+    "market": "KOSDAQ",
+    "close": 14040,
+    "change_rate": 22.51,
+    "direction": "양봉",
+    "trading_value": 586659130570,
+    "volume_surge": 4.8,
+    "sector": "절연선 및 케이블 제조업",
+    "week52_low": 847.0,
+    "week52_high": 31500.0,
+    "week52_pct": 34.6,
+    "related_stocks": [
+      {
+        "ticker": "006340",
+        "name": "대원전선",
+        "close": 14950,
+        "change_rate": 8.41,
+        "trading_value": 132368509440
+      },
+      {
+        "ticker": "001440",
+        "name": "대한전선",
+        "close": 28900,
+        "change_rate": 6.64,
+        "trading_value": 66986992375
+      },
+      {
+        "ticker": "217590",
+        "name": "티엠씨",
+        "close": 14190,
+        "change_rate": 6.45,
+        "trading_value": 28565001105
+      },
+      {
+        "ticker": "000500",
+        "name": "가온전선",
+        "close": 156500,
+        "change_rate": 5.96,
+        "trading_value": 21411824050
+      },
+      {
+        "ticker": "103590",
+        "name": "일진전기",
+        "close": 62600,
+        "change_rate": 7.38,
+        "trading_value": 19054775700
+      }
+    ],
+    "streak": 1
+  }
+]
