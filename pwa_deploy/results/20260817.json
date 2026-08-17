@@ -1,0 +1,54 @@
+[
+  {
+    "ticker": "319400",
+    "name": "현대무벡스",
+    "market": "KOSDAQ",
+    "close": 28000,
+    "change_rate": 10.67,
+    "direction": "양봉",
+    "trading_value": 280309158800,
+    "volume_surge": 4.4,
+    "sector": "일반 목적용 기계 제조업",
+    "week52_low": 0.0,
+    "week52_high": 50400.0,
+    "week52_pct": 55.6,
+    "related_stocks": [
+      {
+        "ticker": "034020",
+        "name": "두산에너빌리티",
+        "close": 82600,
+        "change_rate": 2.1,
+        "trading_value": 174686604500
+      },
+      {
+        "ticker": "083650",
+        "name": "비에이치아이",
+        "close": 61300,
+        "change_rate": 8.5,
+        "trading_value": 64006183750
+      },
+      {
+        "ticker": "007820",
+        "name": "엠엑스로보틱스",
+        "close": 4450,
+        "change_rate": -3.26,
+        "trading_value": 50324859091
+      },
+      {
+        "ticker": "082740",
+        "name": "한화엔진",
+        "close": 49050,
+        "change_rate": 1.66,
+        "trading_value": 31894490050
+      },
+      {
+        "ticker": "018880",
+        "name": "한온시스템",
+        "close": 3820,
+        "change_rate": 0.39,
+        "trading_value": 17030759156
+      }
+    ],
+    "streak": 1
+  }
+]
