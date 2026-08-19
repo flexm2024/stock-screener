@@ -1,0 +1,54 @@
+[
+  {
+    "ticker": "403870",
+    "name": "HPSP",
+    "market": "KOSDAQ",
+    "close": 45700,
+    "change_rate": 7.15,
+    "direction": "양봉",
+    "trading_value": 284155383675,
+    "volume_surge": 3.1,
+    "sector": "특수 목적용 기계 제조업",
+    "week52_low": 24700.0,
+    "week52_high": 92000.0,
+    "week52_pct": 26.7,
+    "related_stocks": [
+      {
+        "ticker": "036930",
+        "name": "주성엔지니어링",
+        "close": 171600,
+        "change_rate": -4.29,
+        "trading_value": 185205170300
+      },
+      {
+        "ticker": "108490",
+        "name": "로보티즈",
+        "close": 267000,
+        "change_rate": -4.3,
+        "trading_value": 148705403000
+      },
+      {
+        "ticker": "042700",
+        "name": "한미반도체",
+        "close": 221000,
+        "change_rate": -3.49,
+        "trading_value": 135248990000
+      },
+      {
+        "ticker": "240810",
+        "name": "원익IPS",
+        "close": 109300,
+        "change_rate": -2.76,
+        "trading_value": 66559426750
+      },
+      {
+        "ticker": "039030",
+        "name": "이오테크닉스",
+        "close": 415000,
+        "change_rate": 0.24,
+        "trading_value": 55225992000
+      }
+    ],
+    "streak": 1
+  }
+]
