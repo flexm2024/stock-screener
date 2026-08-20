@@ -1,0 +1,54 @@
+[
+  {
+    "ticker": "002990",
+    "name": "금호건설",
+    "market": "KOSPI",
+    "close": 15790,
+    "change_rate": 25.32,
+    "direction": "양봉",
+    "trading_value": 375256340200,
+    "volume_surge": 3.7,
+    "sector": "건물 건설업",
+    "week52_low": 0.0,
+    "week52_high": 19380.0,
+    "week52_pct": 65.0,
+    "related_stocks": [
+      {
+        "ticker": "475150",
+        "name": "SK이터닉스",
+        "close": 55500,
+        "change_rate": -3.98,
+        "trading_value": 385932652900
+      },
+      {
+        "ticker": "006360",
+        "name": "GS건설",
+        "close": 35600,
+        "change_rate": 1.86,
+        "trading_value": 78610905250
+      },
+      {
+        "ticker": "047040",
+        "name": "대우건설",
+        "close": 16730,
+        "change_rate": -2.73,
+        "trading_value": 46876362690
+      },
+      {
+        "ticker": "091590",
+        "name": "남화토건",
+        "close": 6360,
+        "change_rate": 11.58,
+        "trading_value": 27284348150
+      },
+      {
+        "ticker": "294870",
+        "name": "IPARK현대산업개발",
+        "close": 21850,
+        "change_rate": -0.91,
+        "trading_value": 2058644400
+      }
+    ],
+    "streak": 1
+  }
+]
