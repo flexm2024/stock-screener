@@ -1,0 +1,18 @@
+[
+  {
+    "ticker": "005935",
+    "name": "삼성전자우",
+    "market": "KOSPI",
+    "close": 207000,
+    "change_rate": 8.26,
+    "direction": "양봉",
+    "trading_value": 2114710752250,
+    "volume_surge": 3.1,
+    "sector": "기타",
+    "week52_low": 55100.0,
+    "week52_high": 243500.0,
+    "week52_pct": 72.2,
+    "related_stocks": [],
+    "streak": 1
+  }
+]
