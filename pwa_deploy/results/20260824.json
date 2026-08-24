@@ -1,0 +1,106 @@
+[
+  {
+    "ticker": "008930",
+    "name": "한미사이언스",
+    "market": "KOSPI",
+    "close": 56500,
+    "change_rate": 25.7,
+    "direction": "양봉",
+    "trading_value": 216620407350,
+    "volume_surge": 24.1,
+    "sector": "기타 금융업",
+    "week52_low": 25600.0,
+    "week52_high": 55500.0,
+    "week52_pct": 64.7,
+    "related_stocks": [
+      {
+        "ticker": "402340",
+        "name": "SK스퀘어",
+        "close": 1076000,
+        "change_rate": -4.19,
+        "trading_value": 499581667500
+      },
+      {
+        "ticker": "086520",
+        "name": "에코프로",
+        "close": 87900,
+        "change_rate": 7.59,
+        "trading_value": 111649384000
+      },
+      {
+        "ticker": "105560",
+        "name": "KB금융",
+        "close": 163100,
+        "change_rate": -0.73,
+        "trading_value": 102060320650
+      },
+      {
+        "ticker": "034730",
+        "name": "SK",
+        "close": 549000,
+        "change_rate": -6.31,
+        "trading_value": 92402241500
+      },
+      {
+        "ticker": "006260",
+        "name": "LS",
+        "close": 288500,
+        "change_rate": -1.7,
+        "trading_value": 76348188000
+      }
+    ],
+    "streak": 1
+  },
+  {
+    "ticker": "128940",
+    "name": "한미약품",
+    "market": "KOSPI",
+    "close": 540000,
+    "change_rate": 29.96,
+    "direction": "양봉",
+    "trading_value": 259985418750,
+    "volume_surge": 8.3,
+    "sector": "의약품 제조업",
+    "week52_low": 275500.0,
+    "week52_high": 647000.0,
+    "week52_pct": 37.7,
+    "related_stocks": [
+      {
+        "ticker": "237690",
+        "name": "에스티팜",
+        "close": 110200,
+        "change_rate": 10.53,
+        "trading_value": 35736965100
+      },
+      {
+        "ticker": "249420",
+        "name": "일동제약",
+        "close": 15150,
+        "change_rate": 12.14,
+        "trading_value": 27617311255
+      },
+      {
+        "ticker": "009420",
+        "name": "한올바이오파마",
+        "close": 59800,
+        "change_rate": 5.84,
+        "trading_value": 24947187650
+      },
+      {
+        "ticker": "019170",
+        "name": "신풍제약",
+        "close": 10550,
+        "change_rate": 29.93,
+        "trading_value": 20794392600
+      },
+      {
+        "ticker": "000100",
+        "name": "유한양행",
+        "close": 84300,
+        "change_rate": 2.43,
+        "trading_value": 20105843700
+      }
+    ],
+    "streak": 1
+  }
+]
