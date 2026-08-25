@@ -1,0 +1,106 @@
+[
+  {
+    "ticker": "041190",
+    "name": "우리기술투자",
+    "market": "KOSDAQ",
+    "close": 6800,
+    "change_rate": 15.84,
+    "direction": "양봉",
+    "trading_value": 272973896690,
+    "volume_surge": 21.7,
+    "sector": "기타 금융업",
+    "week52_low": 3725.0,
+    "week52_high": 13140.0,
+    "week52_pct": 22.8,
+    "related_stocks": [
+      {
+        "ticker": "402340",
+        "name": "SK스퀘어",
+        "close": 1060000,
+        "change_rate": -1.49,
+        "trading_value": 520775871500
+      },
+      {
+        "ticker": "105560",
+        "name": "KB금융",
+        "close": 166400,
+        "change_rate": 2.02,
+        "trading_value": 118938843650
+      },
+      {
+        "ticker": "055550",
+        "name": "신한지주",
+        "close": 106500,
+        "change_rate": 3.1,
+        "trading_value": 96288912550
+      },
+      {
+        "ticker": "034730",
+        "name": "SK",
+        "close": 556000,
+        "change_rate": 1.28,
+        "trading_value": 76018099500
+      },
+      {
+        "ticker": "078930",
+        "name": "GS",
+        "close": 121800,
+        "change_rate": 6.28,
+        "trading_value": 73645923700
+      }
+    ],
+    "streak": 1
+  },
+  {
+    "ticker": "000720",
+    "name": "현대건설",
+    "market": "KOSPI",
+    "close": 121300,
+    "change_rate": 14.87,
+    "direction": "양봉",
+    "trading_value": 240024385950,
+    "volume_surge": 4.1,
+    "sector": "토목 건설업",
+    "week52_low": 54100.0,
+    "week52_high": 198400.0,
+    "week52_pct": 35.7,
+    "related_stocks": [
+      {
+        "ticker": "375500",
+        "name": "DL이앤씨",
+        "close": 70300,
+        "change_rate": 2.48,
+        "trading_value": 17067629350
+      },
+      {
+        "ticker": "097230",
+        "name": "HJ중공업",
+        "close": 17010,
+        "change_rate": 1.19,
+        "trading_value": 3104366975
+      },
+      {
+        "ticker": "013580",
+        "name": "계룡건설산업",
+        "close": 22350,
+        "change_rate": 1.13,
+        "trading_value": 946477550
+      },
+      {
+        "ticker": "009410",
+        "name": "태영건설",
+        "close": 1628,
+        "change_rate": 1.43,
+        "trading_value": 425057833
+      },
+      {
+        "ticker": "025950",
+        "name": "동신건설",
+        "close": 10330,
+        "change_rate": 2.58,
+        "trading_value": 336984340
+      }
+    ],
+    "streak": 1
+  }
+]
