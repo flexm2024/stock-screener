@@ -1,0 +1,54 @@
+[
+  {
+    "ticker": "034020",
+    "name": "두산에너빌리티",
+    "market": "KOSPI",
+    "close": 85800,
+    "change_rate": 6.32,
+    "direction": "양봉",
+    "trading_value": 544173070800,
+    "volume_surge": 3.1,
+    "sector": "일반 목적용 기계 제조업",
+    "week52_low": 51100.0,
+    "week52_high": 139200.0,
+    "week52_pct": 33.6,
+    "related_stocks": [
+      {
+        "ticker": "083650",
+        "name": "비에이치아이",
+        "close": 64800,
+        "change_rate": 2.05,
+        "trading_value": 39060779500
+      },
+      {
+        "ticker": "100840",
+        "name": "SNT에너지",
+        "close": 32350,
+        "change_rate": 15.33,
+        "trading_value": 27163754000
+      },
+      {
+        "ticker": "319400",
+        "name": "현대무벡스",
+        "close": 23400,
+        "change_rate": -0.43,
+        "trading_value": 24953701275
+      },
+      {
+        "ticker": "082740",
+        "name": "한화엔진",
+        "close": 47900,
+        "change_rate": 0.95,
+        "trading_value": 17650470700
+      },
+      {
+        "ticker": "417010",
+        "name": "나노팀",
+        "close": 6030,
+        "change_rate": -0.82,
+        "trading_value": 15663165470
+      }
+    ],
+    "streak": 1
+  }
+]
