@@ -1,0 +1,40 @@
+[
+  {
+    "ticker": "001210",
+    "name": "금호전기",
+    "market": "KOSPI",
+    "close": 10680,
+    "change_rate": 29.93,
+    "direction": "양봉",
+    "trading_value": 253098506385,
+    "volume_surge": 5.9,
+    "sector": "전구 및 조명장치 제조업",
+    "week52_low": 2325.0,
+    "week52_high": 9740.0,
+    "week52_pct": 79.5,
+    "related_stocks": [
+      {
+        "ticker": "307180",
+        "name": "아이엘",
+        "close": 5420,
+        "change_rate": -6.23,
+        "trading_value": 2103412930
+      },
+      {
+        "ticker": "290690",
+        "name": "아리바이오홀딩스",
+        "close": 4110,
+        "change_rate": -0.24,
+        "trading_value": 923471557
+      },
+      {
+        "ticker": "106240",
+        "name": "파인테크닉스",
+        "close": 1184,
+        "change_rate": 0.51,
+        "trading_value": 36646404
+      }
+    ],
+    "streak": 1
+  }
+]
