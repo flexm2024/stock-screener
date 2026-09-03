@@ -1,0 +1,54 @@
+[
+  {
+    "ticker": "047050",
+    "name": "포스코인터내셔널",
+    "market": "KOSPI",
+    "close": 55500,
+    "change_rate": 4.32,
+    "direction": "양봉",
+    "trading_value": 1582120236750,
+    "volume_surge": 36.5,
+    "sector": "상품 중개업",
+    "week52_low": 44850.0,
+    "week52_high": 91200.0,
+    "week52_pct": 18.0,
+    "related_stocks": [
+      {
+        "ticker": "001120",
+        "name": "LX인터내셔널",
+        "close": 40450,
+        "change_rate": 2.41,
+        "trading_value": 5061070875
+      },
+      {
+        "ticker": "001530",
+        "name": "디아이동일",
+        "close": 26850,
+        "change_rate": -4.28,
+        "trading_value": 777433550
+      },
+      {
+        "ticker": "063170",
+        "name": "서울옥션",
+        "close": 6080,
+        "change_rate": -1.3,
+        "trading_value": 255847180
+      },
+      {
+        "ticker": "121440",
+        "name": "골프존홀딩스",
+        "close": 7860,
+        "change_rate": 3.29,
+        "trading_value": 221444870
+      },
+      {
+        "ticker": "036030",
+        "name": "케이티알파",
+        "close": 4700,
+        "change_rate": 0.11,
+        "trading_value": 147821260
+      }
+    ],
+    "streak": 1
+  }
+]
