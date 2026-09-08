@@ -1,0 +1,54 @@
+[
+  {
+    "ticker": "067290",
+    "name": "JW신약",
+    "market": "KOSDAQ",
+    "close": 3580,
+    "change_rate": 9.65,
+    "direction": "양봉",
+    "trading_value": 206404140228,
+    "volume_surge": 3.8,
+    "sector": "의약품 제조업",
+    "week52_low": 1246.0,
+    "week52_high": 3900.0,
+    "week52_pct": 87.9,
+    "related_stocks": [
+      {
+        "ticker": "004310",
+        "name": "현대약품",
+        "close": 8420,
+        "change_rate": 5.91,
+        "trading_value": 102835305985
+      },
+      {
+        "ticker": "128940",
+        "name": "한미약품",
+        "close": 475500,
+        "change_rate": 0.42,
+        "trading_value": 45294702000
+      },
+      {
+        "ticker": "014950",
+        "name": "삼익제약",
+        "close": 8780,
+        "change_rate": 29.88,
+        "trading_value": 34316314315
+      },
+      {
+        "ticker": "237690",
+        "name": "에스티팜",
+        "close": 91700,
+        "change_rate": -9.39,
+        "trading_value": 34293807950
+      },
+      {
+        "ticker": "000250",
+        "name": "삼천당제약",
+        "close": 163000,
+        "change_rate": 3.82,
+        "trading_value": 16822555200
+      }
+    ],
+    "streak": 1
+  }
+]
