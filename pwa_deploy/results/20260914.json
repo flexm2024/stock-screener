@@ -1,0 +1,54 @@
+[
+  {
+    "ticker": "017900",
+    "name": "광전자",
+    "market": "KOSPI",
+    "close": 10270,
+    "change_rate": 30.0,
+    "direction": "양봉",
+    "trading_value": 272251297725,
+    "volume_surge": 13.9,
+    "sector": "반도체 제조업",
+    "week52_low": 0.0,
+    "week52_high": 22450.0,
+    "week52_pct": 35.2,
+    "related_stocks": [
+      {
+        "ticker": "000660",
+        "name": "SK하이닉스",
+        "close": 1684000,
+        "change_rate": -7.06,
+        "trading_value": 6569562446716
+      },
+      {
+        "ticker": "000990",
+        "name": "DB하이텍",
+        "close": 108500,
+        "change_rate": 2.55,
+        "trading_value": 110769810240
+      },
+      {
+        "ticker": "080220",
+        "name": "제주반도체",
+        "close": 69800,
+        "change_rate": -7.18,
+        "trading_value": 51613681350
+      },
+      {
+        "ticker": "036540",
+        "name": "SFA반도체",
+        "close": 7400,
+        "change_rate": 5.11,
+        "trading_value": 51244430145
+      },
+      {
+        "ticker": "456010",
+        "name": "아이씨티케이",
+        "close": 18120,
+        "change_rate": 5.35,
+        "trading_value": 32828296155
+      }
+    ],
+    "streak": 1
+  }
+]
