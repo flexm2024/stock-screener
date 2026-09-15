@@ -1,0 +1,106 @@
+[
+  {
+    "ticker": "014950",
+    "name": "삼익제약",
+    "market": "KOSDAQ",
+    "close": 11320,
+    "change_rate": 22.11,
+    "direction": "양봉",
+    "trading_value": 228370453730,
+    "volume_surge": 8.8,
+    "sector": "의약품 제조업",
+    "week52_low": 3705.0,
+    "week52_high": 25050.0,
+    "week52_pct": 27.1,
+    "related_stocks": [
+      {
+        "ticker": "004310",
+        "name": "현대약품",
+        "close": 10090,
+        "change_rate": 1.0,
+        "trading_value": 165715275175
+      },
+      {
+        "ticker": "067290",
+        "name": "JW신약",
+        "close": 3670,
+        "change_rate": 7.94,
+        "trading_value": 160834670891
+      },
+      {
+        "ticker": "128940",
+        "name": "한미약품",
+        "close": 493500,
+        "change_rate": 4.11,
+        "trading_value": 87449646000
+      },
+      {
+        "ticker": "456160",
+        "name": "지투지바이오",
+        "close": 34300,
+        "change_rate": 8.54,
+        "trading_value": 30230369100
+      },
+      {
+        "ticker": "000100",
+        "name": "유한양행",
+        "close": 79800,
+        "change_rate": 0.88,
+        "trading_value": 18053917700
+      }
+    ],
+    "streak": 1
+  },
+  {
+    "ticker": "030530",
+    "name": "원익홀딩스",
+    "market": "KOSDAQ",
+    "close": 25550,
+    "change_rate": 16.67,
+    "direction": "양봉",
+    "trading_value": 238685460550,
+    "volume_surge": 5.3,
+    "sector": "기초 화학물질 제조업",
+    "week52_low": 0.0,
+    "week52_high": 50600.0,
+    "week52_pct": 42.2,
+    "related_stocks": [
+      {
+        "ticker": "093370",
+        "name": "후성",
+        "close": 14620,
+        "change_rate": 3.61,
+        "trading_value": 132188214825
+      },
+      {
+        "ticker": "051910",
+        "name": "LG화학",
+        "close": 270000,
+        "change_rate": 0.75,
+        "trading_value": 48524673750
+      },
+      {
+        "ticker": "009830",
+        "name": "한화솔루션",
+        "close": 28600,
+        "change_rate": -0.35,
+        "trading_value": 32264274325
+      },
+      {
+        "ticker": "011170",
+        "name": "롯데케미칼",
+        "close": 64500,
+        "change_rate": -1.38,
+        "trading_value": 10416583550
+      },
+      {
+        "ticker": "014680",
+        "name": "한솔케미칼",
+        "close": 203500,
+        "change_rate": 2.78,
+        "trading_value": 9634179450
+      }
+    ],
+    "streak": 1
+  }
+]
