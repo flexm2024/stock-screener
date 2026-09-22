@@ -1,0 +1,54 @@
+[
+  {
+    "ticker": "012210",
+    "name": "삼미금속",
+    "market": "KOSDAQ",
+    "close": 13310,
+    "change_rate": 19.69,
+    "direction": "양봉",
+    "trading_value": 294386854015,
+    "volume_surge": 6.9,
+    "sector": "기타 금속 가공제품 제조업",
+    "week52_low": 0.0,
+    "week52_high": 20850.0,
+    "week52_pct": 53.1,
+    "related_stocks": [
+      {
+        "ticker": "044490",
+        "name": "태웅",
+        "close": 39450,
+        "change_rate": 4.09,
+        "trading_value": 21075380250
+      },
+      {
+        "ticker": "396300",
+        "name": "HT로보틱스",
+        "close": 4605,
+        "change_rate": 0.66,
+        "trading_value": 12940855475
+      },
+      {
+        "ticker": "452280",
+        "name": "한선엔지니어링",
+        "close": 13460,
+        "change_rate": 0.07,
+        "trading_value": 11469421410
+      },
+      {
+        "ticker": "019210",
+        "name": "와이지-원",
+        "close": 12450,
+        "change_rate": -1.81,
+        "trading_value": 5919348450
+      },
+      {
+        "ticker": "017510",
+        "name": "세명전기",
+        "close": 7760,
+        "change_rate": -0.89,
+        "trading_value": 2137329145
+      }
+    ],
+    "streak": 1
+  }
+]
