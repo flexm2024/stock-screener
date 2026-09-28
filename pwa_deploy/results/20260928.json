@@ -1,0 +1,54 @@
+[
+  {
+    "ticker": "009830",
+    "name": "한화솔루션",
+    "market": "KOSPI",
+    "close": 33700,
+    "change_rate": 15.41,
+    "direction": "양봉",
+    "trading_value": 344152987275,
+    "volume_surge": 6.2,
+    "sector": "기초 화학물질 제조업",
+    "week52_low": 22000.0,
+    "week52_high": 55934.0,
+    "week52_pct": 21.8,
+    "related_stocks": [
+      {
+        "ticker": "051910",
+        "name": "LG화학",
+        "close": 262000,
+        "change_rate": 3.76,
+        "trading_value": 48916076500
+      },
+      {
+        "ticker": "093370",
+        "name": "후성",
+        "close": 13990,
+        "change_rate": 0.29,
+        "trading_value": 36860634090
+      },
+      {
+        "ticker": "030530",
+        "name": "원익홀딩스",
+        "close": 27200,
+        "change_rate": -3.89,
+        "trading_value": 30123020825
+      },
+      {
+        "ticker": "005290",
+        "name": "동진쎄미켐",
+        "close": 45050,
+        "change_rate": -3.74,
+        "trading_value": 24662055525
+      },
+      {
+        "ticker": "425040",
+        "name": "티이엠씨",
+        "close": 13200,
+        "change_rate": 2.4,
+        "trading_value": 13593728600
+      }
+    ],
+    "streak": 1
+  }
+]
