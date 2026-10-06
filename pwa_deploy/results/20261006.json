@@ -1,0 +1,106 @@
+[
+  {
+    "ticker": "028300",
+    "name": "HLB",
+    "market": "KOSDAQ",
+    "close": 47400,
+    "change_rate": 17.18,
+    "direction": "양봉",
+    "trading_value": 268536125400,
+    "volume_surge": 7.0,
+    "sector": "의료용품 및 기타 의약 관련제품 제조업",
+    "week52_low": 24150.0,
+    "week52_high": 69200.0,
+    "week52_pct": 36.6,
+    "related_stocks": [
+      {
+        "ticker": "214450",
+        "name": "파마리서치",
+        "close": 306000,
+        "change_rate": 0.0,
+        "trading_value": 35802660000
+      },
+      {
+        "ticker": "067630",
+        "name": "HLB생명과학",
+        "close": 4470,
+        "change_rate": 25.03,
+        "trading_value": 27648613820
+      },
+      {
+        "ticker": "096530",
+        "name": "씨젠",
+        "close": 37250,
+        "change_rate": 0.95,
+        "trading_value": 7566732025
+      },
+      {
+        "ticker": "174900",
+        "name": "앱클론",
+        "close": 28800,
+        "change_rate": 3.23,
+        "trading_value": 7027133675
+      },
+      {
+        "ticker": "046210",
+        "name": "HLB파나진",
+        "close": 1393,
+        "change_rate": 13.25,
+        "trading_value": 4786701873
+      }
+    ],
+    "streak": 1
+  },
+  {
+    "ticker": "036930",
+    "name": "주성엔지니어링",
+    "market": "KOSDAQ",
+    "close": 278500,
+    "change_rate": 17.51,
+    "direction": "양봉",
+    "trading_value": 952105354000,
+    "volume_surge": 3.3,
+    "sector": "특수 목적용 기계 제조업",
+    "week52_low": 26350.0,
+    "week52_high": 283000.0,
+    "week52_pct": 83.1,
+    "related_stocks": [
+      {
+        "ticker": "403870",
+        "name": "HPSP",
+        "close": 68800,
+        "change_rate": 5.04,
+        "trading_value": 184036614500
+      },
+      {
+        "ticker": "240810",
+        "name": "원익IPS",
+        "close": 141300,
+        "change_rate": 2.24,
+        "trading_value": 173657993550
+      },
+      {
+        "ticker": "042700",
+        "name": "한미반도체",
+        "close": 278000,
+        "change_rate": 2.21,
+        "trading_value": 135236382500
+      },
+      {
+        "ticker": "098460",
+        "name": "고영",
+        "close": 36450,
+        "change_rate": 6.89,
+        "trading_value": 79598466750
+      },
+      {
+        "ticker": "108490",
+        "name": "로보티즈",
+        "close": 315500,
+        "change_rate": 1.45,
+        "trading_value": 78038445000
+      }
+    ],
+    "streak": 1
+  }
+]
