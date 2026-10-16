@@ -1,0 +1,106 @@
+[
+  {
+    "ticker": "396300",
+    "name": "HT로보틱스",
+    "market": "KOSDAQ",
+    "close": 8980,
+    "change_rate": 25.59,
+    "direction": "양봉",
+    "trading_value": 263097157390,
+    "volume_surge": 7.4,
+    "sector": "기타 금속 가공제품 제조업",
+    "week52_low": 2270.0,
+    "week52_high": 8070.0,
+    "week52_pct": 84.1,
+    "related_stocks": [
+      {
+        "ticker": "452280",
+        "name": "한선엔지니어링",
+        "close": 16810,
+        "change_rate": 14.59,
+        "trading_value": 135744762745
+      },
+      {
+        "ticker": "019210",
+        "name": "와이지-원",
+        "close": 11030,
+        "change_rate": 5.15,
+        "trading_value": 4856129390
+      },
+      {
+        "ticker": "012210",
+        "name": "삼미금속",
+        "close": 9950,
+        "change_rate": 3.0,
+        "trading_value": 4362547090
+      },
+      {
+        "ticker": "044490",
+        "name": "태웅",
+        "close": 29050,
+        "change_rate": 3.01,
+        "trading_value": 3094843725
+      },
+      {
+        "ticker": "475230",
+        "name": "엔알비",
+        "close": 8190,
+        "change_rate": 6.92,
+        "trading_value": 1123536050
+      }
+    ],
+    "streak": 1
+  },
+  {
+    "ticker": "068270",
+    "name": "셀트리온",
+    "market": "KOSPI",
+    "close": 193700,
+    "change_rate": 6.37,
+    "direction": "양봉",
+    "trading_value": 212159989850,
+    "volume_surge": 3.1,
+    "sector": "기초 의약물질 제조업",
+    "week52_low": 158500.0,
+    "week52_high": 239244.0,
+    "week52_pct": 28.6,
+    "related_stocks": [
+      {
+        "ticker": "207940",
+        "name": "삼성바이오로직스",
+        "close": 1285000,
+        "change_rate": 3.05,
+        "trading_value": 216322764110
+      },
+      {
+        "ticker": "087010",
+        "name": "펩트론",
+        "close": 100200,
+        "change_rate": 13.48,
+        "trading_value": 39559242850
+      },
+      {
+        "ticker": "298380",
+        "name": "에이비엘바이오",
+        "close": 43350,
+        "change_rate": 6.91,
+        "trading_value": 16880948100
+      },
+      {
+        "ticker": "145020",
+        "name": "휴젤",
+        "close": 179300,
+        "change_rate": 6.41,
+        "trading_value": 11904221650
+      },
+      {
+        "ticker": "007390",
+        "name": "네이처셀",
+        "close": 21800,
+        "change_rate": -1.58,
+        "trading_value": 6931776100
+      }
+    ],
+    "streak": 1
+  }
+]
