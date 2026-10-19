@@ -1,0 +1,54 @@
+[
+  {
+    "ticker": "042660",
+    "name": "한화오션",
+    "market": "KOSPI",
+    "close": 64700,
+    "change_rate": -0.46,
+    "direction": "양봉",
+    "trading_value": 1438829710750,
+    "volume_surge": 25.2,
+    "sector": "선박 및 보트 건조업",
+    "week52_low": 61100.0,
+    "week52_high": 154800.0,
+    "week52_pct": 3.7,
+    "related_stocks": [
+      {
+        "ticker": "329180",
+        "name": "HD현대중공업",
+        "close": 347000,
+        "change_rate": -1.28,
+        "trading_value": 100565357250
+      },
+      {
+        "ticker": "010140",
+        "name": "삼성중공업",
+        "close": 18400,
+        "change_rate": 0.0,
+        "trading_value": 52432283400
+      },
+      {
+        "ticker": "439260",
+        "name": "대한조선",
+        "close": 42200,
+        "change_rate": 2.3,
+        "trading_value": 1163223925
+      },
+      {
+        "ticker": "460930",
+        "name": "현대힘스",
+        "close": 11520,
+        "change_rate": 1.14,
+        "trading_value": 559961820
+      },
+      {
+        "ticker": "075580",
+        "name": "세진중공업",
+        "close": 8540,
+        "change_rate": 2.28,
+        "trading_value": 502276960
+      }
+    ],
+    "streak": 1
+  }
+]
