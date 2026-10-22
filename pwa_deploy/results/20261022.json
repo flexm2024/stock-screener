@@ -1,0 +1,54 @@
+[
+  {
+    "ticker": "028050",
+    "name": "삼성E&A",
+    "market": "KOSPI",
+    "close": 55200,
+    "change_rate": 15.72,
+    "direction": "양봉",
+    "trading_value": 645500726600,
+    "volume_surge": 7.8,
+    "sector": "건축기술, 엔지니어링 및 관련 기술 서비스업",
+    "week52_low": 23150.0,
+    "week52_high": 67300.0,
+    "week52_pct": 55.8,
+    "related_stocks": [
+      {
+        "ticker": "443060",
+        "name": "HD현대마린솔루션",
+        "close": 200000,
+        "change_rate": -4.08,
+        "trading_value": 19274029750
+      },
+      {
+        "ticker": "052690",
+        "name": "한전기술",
+        "close": 95300,
+        "change_rate": -3.93,
+        "trading_value": 12221864450
+      },
+      {
+        "ticker": "490470",
+        "name": "세미파이브",
+        "close": 14140,
+        "change_rate": -10.11,
+        "trading_value": 9667923895
+      },
+      {
+        "ticker": "053690",
+        "name": "한미글로벌",
+        "close": 18510,
+        "change_rate": 3.18,
+        "trading_value": 4723874755
+      },
+      {
+        "ticker": "022100",
+        "name": "포스코DX",
+        "close": 19470,
+        "change_rate": -2.89,
+        "trading_value": 2427428430
+      }
+    ],
+    "streak": 1
+  }
+]
