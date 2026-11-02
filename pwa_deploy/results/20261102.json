@@ -1,0 +1,54 @@
+[
+  {
+    "ticker": "030530",
+    "name": "원익홀딩스",
+    "market": "KOSDAQ",
+    "close": 32350,
+    "change_rate": 9.66,
+    "direction": "양봉",
+    "trading_value": 265289936100,
+    "volume_surge": 6.2,
+    "sector": "기초 화학물질 제조업",
+    "week52_low": 0.0,
+    "week52_high": 50600.0,
+    "week52_pct": 57.0,
+    "related_stocks": [
+      {
+        "ticker": "009830",
+        "name": "한화솔루션",
+        "close": 23650,
+        "change_rate": 4.65,
+        "trading_value": 76881942925
+      },
+      {
+        "ticker": "051910",
+        "name": "LG화학",
+        "close": 240500,
+        "change_rate": 2.34,
+        "trading_value": 32958632250
+      },
+      {
+        "ticker": "005290",
+        "name": "동진쎄미켐",
+        "close": 39150,
+        "change_rate": 0.9,
+        "trading_value": 10474360525
+      },
+      {
+        "ticker": "093370",
+        "name": "후성",
+        "close": 9980,
+        "change_rate": 0.1,
+        "trading_value": 9909232085
+      },
+      {
+        "ticker": "457190",
+        "name": "이수스페셜티케미컬",
+        "close": 73500,
+        "change_rate": 0.55,
+        "trading_value": 9405054850
+      }
+    ],
+    "streak": 1
+  }
+]
