@@ -1,0 +1,106 @@
+[
+  {
+    "ticker": "009830",
+    "name": "한화솔루션",
+    "market": "KOSPI",
+    "close": 28000,
+    "change_rate": 18.64,
+    "direction": "양봉",
+    "trading_value": 697139766125,
+    "volume_surge": 7.9,
+    "sector": "기초 화학물질 제조업",
+    "week52_low": 21100.0,
+    "week52_high": 55934.0,
+    "week52_pct": 8.8,
+    "related_stocks": [
+      {
+        "ticker": "030530",
+        "name": "원익홀딩스",
+        "close": 30100,
+        "change_rate": -6.96,
+        "trading_value": 178162307025
+      },
+      {
+        "ticker": "051910",
+        "name": "LG화학",
+        "close": 247000,
+        "change_rate": 4.0,
+        "trading_value": 71867010500
+      },
+      {
+        "ticker": "457190",
+        "name": "이수스페셜티케미컬",
+        "close": 74300,
+        "change_rate": 10.4,
+        "trading_value": 26154954800
+      },
+      {
+        "ticker": "093370",
+        "name": "후성",
+        "close": 9750,
+        "change_rate": 5.98,
+        "trading_value": 13988334655
+      },
+      {
+        "ticker": "005290",
+        "name": "동진쎄미켐",
+        "close": 39500,
+        "change_rate": 3.0,
+        "trading_value": 13556696100
+      }
+    ],
+    "streak": 1
+  },
+  {
+    "ticker": "010060",
+    "name": "OCI홀딩스",
+    "market": "KOSPI",
+    "close": 200000,
+    "change_rate": 10.38,
+    "direction": "양봉",
+    "trading_value": 213252704700,
+    "volume_surge": 4.7,
+    "sector": "기타 금융업",
+    "week52_low": 97800.0,
+    "week52_high": 414000.0,
+    "week52_pct": 29.3,
+    "related_stocks": [
+      {
+        "ticker": "402340",
+        "name": "SK스퀘어",
+        "close": 899000,
+        "change_rate": 0.0,
+        "trading_value": 798113980675
+      },
+      {
+        "ticker": "180640",
+        "name": "한진칼",
+        "close": 184300,
+        "change_rate": 5.19,
+        "trading_value": 423011677550
+      },
+      {
+        "ticker": "105560",
+        "name": "KB금융",
+        "close": 151500,
+        "change_rate": 0.07,
+        "trading_value": 137268105650
+      },
+      {
+        "ticker": "034730",
+        "name": "SK",
+        "close": 518000,
+        "change_rate": 2.37,
+        "trading_value": 101856777000
+      },
+      {
+        "ticker": "086520",
+        "name": "에코프로",
+        "close": 76900,
+        "change_rate": 9.54,
+        "trading_value": 98768793900
+      }
+    ],
+    "streak": 1
+  }
+]
