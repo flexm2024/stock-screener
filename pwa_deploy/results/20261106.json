@@ -1,0 +1,54 @@
+[
+  {
+    "ticker": "035420",
+    "name": "NAVER",
+    "market": "KOSPI",
+    "close": 190200,
+    "change_rate": 2.87,
+    "direction": "양봉",
+    "trading_value": 380588508650,
+    "volume_surge": 3.2,
+    "sector": "자료처리, 호스팅, 포털 및 기타 인터넷 정보매개 서비스업",
+    "week52_low": 166000.0,
+    "week52_high": 304000.0,
+    "week52_pct": 13.0,
+    "related_stocks": [
+      {
+        "ticker": "035720",
+        "name": "카카오",
+        "close": 32300,
+        "change_rate": 0.31,
+        "trading_value": 118967069975
+      },
+      {
+        "ticker": "093320",
+        "name": "케이아이엔엑스",
+        "close": 175000,
+        "change_rate": -0.17,
+        "trading_value": 4369543900
+      },
+      {
+        "ticker": "042000",
+        "name": "카페24",
+        "close": 14210,
+        "change_rate": -14.81,
+        "trading_value": 3800883220
+      },
+      {
+        "ticker": "020120",
+        "name": "키다리스튜디오",
+        "close": 3110,
+        "change_rate": -3.86,
+        "trading_value": 1966672027
+      },
+      {
+        "ticker": "023590",
+        "name": "다우기술",
+        "close": 29950,
+        "change_rate": -3.7,
+        "trading_value": 1681781600
+      }
+    ],
+    "streak": 1
+  }
+]
