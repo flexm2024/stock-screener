@@ -1,0 +1,106 @@
+[
+  {
+    "ticker": "180640",
+    "name": "한진칼",
+    "market": "KOSPI",
+    "close": 239000,
+    "change_rate": 15.18,
+    "direction": "양봉",
+    "trading_value": 298712338250,
+    "volume_surge": 4.1,
+    "sector": "기타 금융업",
+    "week52_low": 93100.0,
+    "week52_high": 223500.0,
+    "week52_pct": 94.2,
+    "related_stocks": [
+      {
+        "ticker": "402340",
+        "name": "SK스퀘어",
+        "close": 760000,
+        "change_rate": 5.26,
+        "trading_value": 473139969500
+      },
+      {
+        "ticker": "105560",
+        "name": "KB금융",
+        "close": 152700,
+        "change_rate": 1.19,
+        "trading_value": 105555692750
+      },
+      {
+        "ticker": "055550",
+        "name": "신한지주",
+        "close": 85500,
+        "change_rate": -0.35,
+        "trading_value": 88998195650
+      },
+      {
+        "ticker": "086790",
+        "name": "하나금융지주",
+        "close": 118400,
+        "change_rate": 2.07,
+        "trading_value": 79880415137
+      },
+      {
+        "ticker": "010060",
+        "name": "OCI홀딩스",
+        "close": 197700,
+        "change_rate": 0.87,
+        "trading_value": 76153880950
+      }
+    ],
+    "streak": 1
+  },
+  {
+    "ticker": "003490",
+    "name": "대한항공",
+    "market": "KOSPI",
+    "close": 32450,
+    "change_rate": 11.51,
+    "direction": "양봉",
+    "trading_value": 292646543650,
+    "volume_surge": 3.8,
+    "sector": "항공 여객 운송업",
+    "week52_low": 21000.0,
+    "week52_high": 32500.0,
+    "week52_pct": 70.9,
+    "related_stocks": [
+      {
+        "ticker": "272450",
+        "name": "진에어",
+        "close": 7990,
+        "change_rate": 29.92,
+        "trading_value": 79400900365
+      },
+      {
+        "ticker": "298690",
+        "name": "에어부산",
+        "close": 1882,
+        "change_rate": 17.19,
+        "trading_value": 31234112631
+      },
+      {
+        "ticker": "089590",
+        "name": "제주항공",
+        "close": 7430,
+        "change_rate": 8.78,
+        "trading_value": 19640714165
+      },
+      {
+        "ticker": "020560",
+        "name": "아시아나항공",
+        "close": 8700,
+        "change_rate": 11.68,
+        "trading_value": 7314633930
+      },
+      {
+        "ticker": "091810",
+        "name": "트리니티항공",
+        "close": 2655,
+        "change_rate": 9.71,
+        "trading_value": 1393588946
+      }
+    ],
+    "streak": 1
+  }
+]
