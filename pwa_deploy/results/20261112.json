@@ -1,0 +1,54 @@
+[
+  {
+    "ticker": "263860",
+    "name": "지니언스",
+    "market": "KOSDAQ",
+    "close": 31350,
+    "change_rate": 21.04,
+    "direction": "양봉",
+    "trading_value": 253544829625,
+    "volume_surge": 8.0,
+    "sector": "소프트웨어 개발 및 공급업",
+    "week52_low": 11000.0,
+    "week52_high": 35200.0,
+    "week52_pct": 61.2,
+    "related_stocks": [
+      {
+        "ticker": "036570",
+        "name": "NC",
+        "close": 189800,
+        "change_rate": -9.19,
+        "trading_value": 65368657500
+      },
+      {
+        "ticker": "053800",
+        "name": "안랩",
+        "close": 115200,
+        "change_rate": -2.12,
+        "trading_value": 60886849250
+      },
+      {
+        "ticker": "328130",
+        "name": "루닛",
+        "close": 13720,
+        "change_rate": -2.97,
+        "trading_value": 51437771355
+      },
+      {
+        "ticker": "181710",
+        "name": "NHN",
+        "close": 68600,
+        "change_rate": -14.57,
+        "trading_value": 50167683750
+      },
+      {
+        "ticker": "420610",
+        "name": "인텔리빅스",
+        "close": 13180,
+        "change_rate": 13.23,
+        "trading_value": 47855104085
+      }
+    ],
+    "streak": 1
+  }
+]
