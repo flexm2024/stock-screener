@@ -1,0 +1,18 @@
+[
+  {
+    "ticker": "030530",
+    "name": "원익홀딩스",
+    "market": "KOSDAQ",
+    "close": 35100,
+    "change_rate": 9.69,
+    "direction": "양봉",
+    "trading_value": 316471777475,
+    "volume_surge": 3.1,
+    "sector": "기타",
+    "week52_low": 13210.0,
+    "week52_high": 50600.0,
+    "week52_pct": 50.7,
+    "related_stocks": [],
+    "streak": 1
+  }
+]
