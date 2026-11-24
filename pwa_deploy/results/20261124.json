@@ -1,0 +1,54 @@
+[
+  {
+    "ticker": "108490",
+    "name": "로보티즈",
+    "market": "KOSDAQ",
+    "close": 290000,
+    "change_rate": 17.89,
+    "direction": "양봉",
+    "trading_value": 210642818250,
+    "volume_surge": 3.5,
+    "sector": "특수 목적용 기계 제조업",
+    "week52_low": 155000.0,
+    "week52_high": 464000.0,
+    "week52_pct": 30.6,
+    "related_stocks": [
+      {
+        "ticker": "036930",
+        "name": "주성엔지니어링",
+        "close": 149300,
+        "change_rate": 5.36,
+        "trading_value": 205532089050
+      },
+      {
+        "ticker": "090710",
+        "name": "휴림로봇",
+        "close": 7430,
+        "change_rate": 29.9,
+        "trading_value": 151762588285
+      },
+      {
+        "ticker": "277810",
+        "name": "레인보우로보틱스",
+        "close": 467000,
+        "change_rate": 16.17,
+        "trading_value": 141672059750
+      },
+      {
+        "ticker": "403870",
+        "name": "HPSP",
+        "close": 42600,
+        "change_rate": 14.52,
+        "trading_value": 121213954000
+      },
+      {
+        "ticker": "042700",
+        "name": "한미반도체",
+        "close": 162600,
+        "change_rate": 7.82,
+        "trading_value": 102979988550
+      }
+    ],
+    "streak": 1
+  }
+]
