@@ -1,0 +1,106 @@
+[
+  {
+    "ticker": "263860",
+    "name": "지니언스",
+    "market": "KOSDAQ",
+    "close": 42050,
+    "change_rate": 18.79,
+    "direction": "양봉",
+    "trading_value": 354871015575,
+    "volume_surge": 3.8,
+    "sector": "소프트웨어 개발 및 공급업",
+    "week52_low": 11000.0,
+    "week52_high": 45000.0,
+    "week52_pct": 69.1,
+    "related_stocks": [
+      {
+        "ticker": "307950",
+        "name": "현대오토에버",
+        "close": 364000,
+        "change_rate": 0.41,
+        "trading_value": 99872364750
+      },
+      {
+        "ticker": "042510",
+        "name": "라온시큐어",
+        "close": 15030,
+        "change_rate": 15.26,
+        "trading_value": 88425284125
+      },
+      {
+        "ticker": "356680",
+        "name": "엑스게이트",
+        "close": 13230,
+        "change_rate": 5.0,
+        "trading_value": 67756474545
+      },
+      {
+        "ticker": "328130",
+        "name": "루닛",
+        "close": 16530,
+        "change_rate": 5.83,
+        "trading_value": 53692463555
+      },
+      {
+        "ticker": "150900",
+        "name": "파수AI",
+        "close": 7550,
+        "change_rate": 29.95,
+        "trading_value": 45571476370
+      }
+    ],
+    "streak": 1
+  },
+  {
+    "ticker": "053800",
+    "name": "안랩",
+    "market": "KOSDAQ",
+    "close": 157900,
+    "change_rate": 29.96,
+    "direction": "양봉",
+    "trading_value": 274295120250,
+    "volume_surge": 3.7,
+    "sector": "소프트웨어 개발 및 공급업",
+    "week52_low": 50800.0,
+    "week52_high": 137300.0,
+    "week52_pct": 81.7,
+    "related_stocks": [
+      {
+        "ticker": "307950",
+        "name": "현대오토에버",
+        "close": 364000,
+        "change_rate": 0.41,
+        "trading_value": 99872364750
+      },
+      {
+        "ticker": "042510",
+        "name": "라온시큐어",
+        "close": 15030,
+        "change_rate": 15.26,
+        "trading_value": 88425284125
+      },
+      {
+        "ticker": "356680",
+        "name": "엑스게이트",
+        "close": 13230,
+        "change_rate": 5.0,
+        "trading_value": 67756474545
+      },
+      {
+        "ticker": "328130",
+        "name": "루닛",
+        "close": 16530,
+        "change_rate": 5.83,
+        "trading_value": 53692463555
+      },
+      {
+        "ticker": "150900",
+        "name": "파수AI",
+        "close": 7550,
+        "change_rate": 29.95,
+        "trading_value": 45571476370
+      }
+    ],
+    "streak": 1
+  }
+]
