@@ -1,0 +1,54 @@
+[
+  {
+    "ticker": "277810",
+    "name": "레인보우로보틱스",
+    "market": "KOSDAQ",
+    "close": 529000,
+    "change_rate": 13.28,
+    "direction": "양봉",
+    "trading_value": 207108321000,
+    "volume_surge": 4.0,
+    "sector": "특수 목적용 기계 제조업",
+    "week52_low": 298000.0,
+    "week52_high": 979000.0,
+    "week52_pct": 26.9,
+    "related_stocks": [
+      {
+        "ticker": "036930",
+        "name": "주성엔지니어링",
+        "close": 156100,
+        "change_rate": 13.78,
+        "trading_value": 301783655750
+      },
+      {
+        "ticker": "108490",
+        "name": "로보티즈",
+        "close": 302000,
+        "change_rate": 7.66,
+        "trading_value": 152602935500
+      },
+      {
+        "ticker": "090710",
+        "name": "휴림로봇",
+        "close": 7270,
+        "change_rate": 6.91,
+        "trading_value": 102484890485
+      },
+      {
+        "ticker": "471800",
+        "name": "에이엘로봇",
+        "close": 11330,
+        "change_rate": 23.69,
+        "trading_value": 94122739790
+      },
+      {
+        "ticker": "042700",
+        "name": "한미반도체",
+        "close": 160700,
+        "change_rate": 8.8,
+        "trading_value": 93419347850
+      }
+    ],
+    "streak": 1
+  }
+]
